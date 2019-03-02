@@ -8,6 +8,6 @@
 
 @section ('content')
 
-test
+
 
 @stop

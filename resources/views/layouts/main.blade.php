@@ -4,7 +4,7 @@
 	@include('partials/head')
 	@yield('customcss')
 	</head>
-	<body>
+	<body class="index-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 		@include('partials/nav')
 		<div id="app" >
 			@yield('content')
