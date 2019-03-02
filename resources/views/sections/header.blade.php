@@ -10,7 +10,7 @@
         </a>
       </div>
 			<div class="col-md-6 text-center" >
-				<a href="#" class="btn btn-secondary btn-fab btn-fab-lg btn-round">
+				<a href="#" class="btn btn-success btn-round">
 					<i class="fa fa-play"></i>
 				</a>
       </div>
