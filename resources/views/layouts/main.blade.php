@@ -4,11 +4,11 @@
 	@include('partials/head')
 	@yield('customcss')
 	</head>
-	<body class="index-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
-		@include('partials/nav')
-		<div id="app" >
-			@yield('content')
-		</div>
+	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+		@include('partials.nav')
+		@include ('sections.header')
+		@yield('content')
+		@include('partials.footer')
 		@include('partials/js')
 	</body>
 </html>
