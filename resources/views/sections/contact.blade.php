@@ -1,4 +1,4 @@
-<div class="section section-contacts">
+<div class="section section-contacts" id="contact">
 	<div class="row">
 		<div class="col-md-8 ml-auto mr-auto">
 			<h2 class="text-center title">Work with us</h2>

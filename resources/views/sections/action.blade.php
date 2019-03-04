@@ -5,7 +5,7 @@
 				Have Questions? Contact us Now.
 			</div>
 			<br>
-			<a href="#" target="_blank" class="btn btn-rose btn-round btn-lg text-muted">
+			<a href="#contact" class="btn btn-rose btn-round btn-lg text-muted">
 		     Contact
 			  <div class="ripple-container"></div>
 			</a>

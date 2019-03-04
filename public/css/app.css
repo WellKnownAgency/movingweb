@@ -1,5 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v43/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
 /*!
 
  =========================================================
@@ -19010,6 +19033,24 @@ footer .pull-center {
 
 .action-padding {
   padding: 25px 0 37px 0;
+}
+
+.image-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.tabs-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.tabs-text {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 400;
 }
 
 .navbar-laravel {

@@ -7,7 +7,11 @@
 @section('keywords', 'Digital Agency, Online marketing, online advertising, marketing Agency, Advertising Agency, Web design agency, web development')
 
 @section ('content')
+
 	<div class="main main-raised">
+		<div class="container">
+      @include('sections.tabs')
+		</div>
     <div class="container">
       <div class="section text-center">
         <div class="row">
