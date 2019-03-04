@@ -5,9 +5,9 @@
 
 
 // Bootstrap
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import 'variables.scss';
 @import 'material-kit.scss';
+@import 'custom.scss';
 
 
 .navbar-laravel {
