@@ -17,9 +17,14 @@
               <i class="material-icons">attach_money</i> Pricing
             </a>
           </li>
+					<li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">cloud_download</i> Blog
+            </a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
+              <i class="material-icons">cloud_download</i> Support
             </a>
           </li>
           <li class="nav-item">

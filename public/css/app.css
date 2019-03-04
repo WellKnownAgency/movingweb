@@ -18995,6 +18995,23 @@ footer .pull-center {
   max-height: 407px;
 }
 
+.bg-gradient {
+  background: linear-gradient(135deg, #65b2b8 0%, #91ab6d 100%);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+
+.action-text {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.action-padding {
+  padding: 25px 0 37px 0;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
