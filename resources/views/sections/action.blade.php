@@ -2,11 +2,11 @@
 	<div class="container text-center">
 		<div class="action-padding">
 			<div class="action-text">
-				Have Questions? Contact us Now.
+				Book a Free Online Demo with us!
 			</div>
 			<br>
-			<a href="#contact" class="btn btn-rose btn-round btn-lg text-muted">
-		     Contact
+			<a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
+		     Book Now
 			  <div class="ripple-container"></div>
 			</a>
 		</div>

@@ -3,23 +3,23 @@
     <nav class="float-left">
       <ul>
         <li>
-          <a href="https://www.creative-tim.com">
-            Creative Tim
+          <a href="/">
+            Home
           </a>
         </li>
         <li>
-          <a href="https://creative-tim.com/presentation">
-            About Us
+          <a href="/pricing">
+            Pricing
           </a>
         </li>
         <li>
-          <a href="http://blog.creative-tim.com">
+          <a href="/blog">
             Blog
           </a>
         </li>
         <li>
-          <a href="https://www.creative-tim.com/license">
-            Licenses
+          <a href="/support">
+            Support
           </a>
         </li>
       </ul>
@@ -28,8 +28,8 @@
       ©
       <script>
         document.write(new Date().getFullYear())
-      </script>2019, made with <i class="material-icons">favorite</i> by
-      <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+      </script>, Powered by
+      <a href="https://wknown.com" target="_blank">WellKnown Agency</a>.
     </div>
   </div>
 </footer>

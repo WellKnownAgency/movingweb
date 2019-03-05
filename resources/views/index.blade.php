@@ -12,6 +12,7 @@
 		<div class="container">
       @include('sections.tabs')
 		</div>
+		@include('sections.action')
     <div class="container">
       <div class="section text-center">
         <div class="row">
@@ -56,7 +57,7 @@
 		<div class="container">
       @include('sections.reviews')
 		</div>
-			@include('sections.action')
+
     <div class="container">
 			@include('sections.contact')
 		</div>
@@ -64,4 +65,5 @@
 			@include('sections.posts')
 		</div>
   </div>
+	@include('sections.chat')
 @stop

@@ -10,3 +10,19 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+<script>
+<!-- javascript for init -->
+$('.datetimepicker').datetimepicker({
+    icons: {
+        time: "far fa-clock",
+        date: "fa fa-calendar",
+        up: "fa fa-chevron-up",
+        down: "fa fa-chevron-down",
+        previous: 'fa fa-chevron-left',
+        next: 'fa fa-chevron-right',
+        today: 'fas fa-camera',
+        clear: 'fas fa-trash',
+        close: 'far fa-calendar-times'
+    }
+});
+</script>

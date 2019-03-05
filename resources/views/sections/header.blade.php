@@ -6,13 +6,13 @@
         <h1 class="title">Moving CRM</h1>
         <h4>Software for Movers</h4>
         <br>
-        <a href="#" target="_blank" class="btn btn-rose btn-round btn-lg text-muted">
+        <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
            Free Online Demo
         </a>
       </div>
 			<div class="col-md-6 text-center" style="position: relative;">
 				<img src="/images/main_banner_image.png" class="main-media" style="position: relative;"/>
-					<a href="#" class="btn btn-danger btn-round my-auto" style="position: absolute; top: 120px; right: 240px;">
+					<a href="#" class="btn btn-primary btn-round my-auto" style="position: absolute; top: 120px; right: 240px;">
 						<i class="fa fa-play"></i>
 					</a>
       </div>
