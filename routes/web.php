@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
+
+
+//admin panel
+  Route::get('/admin', 'AdminPagesController@index');
+  Route::resource('/admin/posts', 'PostController');
