@@ -1,5 +1,6 @@
 <div class="section justify-content-center">
-
+	<h2 class="title text-center">What is MovingCRM?</h2>
+	<br>
 	<ul class="nav nav-pills nav-pills-primary justify-content-center" role="tablist">
 	    <li class="nav-item col-md-2">
 	        <a class="nav-link active" data-toggle="tab" href="#link1" role="tablist" aria-expanded="true">
@@ -28,10 +29,10 @@
 	    </li>
 	</ul>
 	<div class="tab-content tab-space">
-	    <div class="tab-pane active" id="link1" aria-expanded="true">
+	    <div class="tab-pane fade in active" id="link1" aria-expanded="true">
 	      <div class="row">
 					<div class="col-md-4">
-						<div class="tabs-title text-center">
+						<div class="tabs-title">
 							Moving Calculator
 						</div>
 						<div class="tabs-text">
@@ -52,10 +53,10 @@
 					</div>
 				</div>
 	    </div>
-	    <div class="tab-pane" id="link2" aria-expanded="false">
+	    <div class="tab-pane fade" id="link2" aria-expanded="false">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="tabs-title text-center">
+						<div class="tabs-title">
 							Moving Requests
 						</div>
 						<div class="tabs-text">
@@ -75,10 +76,10 @@
 					</div>
 				</div>
 	    </div>
-	    <div class="tab-pane" id="link3" aria-expanded="false">
+	    <div class="tab-pane fade" id="link3" aria-expanded="false">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="tabs-title text-center">
+						<div class="tabs-title">
 							Moving Schedule
 						</div>
 						<div class="tabs-text">
@@ -99,10 +100,10 @@
 					</div>
 				</div>
 	    </div>
-			<div class="tab-pane" id="link4" aria-expanded="false">
+			<div class="tab-pane fade" id="link4" aria-expanded="false">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="tabs-title text-center">
+						<div class="tabs-title">
 							Team Management
 						</div>
 						<div class="tabs-text">
@@ -111,7 +112,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-rose btn-round btn-lg text-muted">
+								 <a href="#" target="_blank" class="btn btn-rose  btn-round btn-lg text-muted">
 										 Free Online Demo
 									<div class="ripple-container"></div>
 								</a>
@@ -119,14 +120,14 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/calculator.png" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/calculator.png" class="rounded  image-shadow"  width="100%"/>
 					</div>
 				</div>
 	    </div>
-			<div class="tab-pane" id="link5" aria-expanded="false">
+			<div class="tab-pane fade" id="link5" aria-expanded="false">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="tabs-title text-center">
+						<div class="tabs-title">
 							Marketing Automation
 						</div>
 						<div class="tabs-text">

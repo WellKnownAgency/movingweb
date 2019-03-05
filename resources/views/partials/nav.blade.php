@@ -19,7 +19,7 @@
           </li>
 					<li class="nav-item">
             <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Blog
+              <i class="material-icons">library_books</i> Blog
             </a>
           </li>
           <li class="nav-item">
