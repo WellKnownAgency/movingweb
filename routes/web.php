@@ -21,3 +21,5 @@ Route::get('/', function () {
 //admin panel
   Route::get('/admin', 'AdminPagesController@index');
   Route::resource('/admin/posts', 'PostController');
+  Route::get('/admin/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
+  Route::post('/posts/{id}','PostController@update');

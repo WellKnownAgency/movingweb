@@ -82,7 +82,7 @@ class PostController extends Controller
    }
    $post->save();
 
-    return redirect()->route('posts.show', $post->id);
+    return redirect()->route('posts.index', $post->id);
 }
   /**
    * Remove the specified resource from storage.
