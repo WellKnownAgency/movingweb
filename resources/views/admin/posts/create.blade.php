@@ -25,7 +25,7 @@
             {{ csrf_field() }}
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="title">Title</label>
+                <label for="title" class="bmd-label-floating">Title</label>
                 <input type="text" name="title" class="form-control" id="title" placeholder="Title">
               </div>
               <div class="form-group col-md-6">
@@ -35,7 +35,7 @@
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="metatitle">Meta Title</label>
+                <label for="metatitle" class="bmd-label-floating">Meta Title</label>
                 <input type="text" name="metatitle" class="form-control" id="metatitle" placeholder="Meta Title">
               </div>
               <div class="form-group col-md-6">
