@@ -60,11 +60,9 @@
               <input type="text" class="form-control" name="excerpt" id="excerpt">
             </div>
             <div class="form-group">
-              <input onblur="textCounter(this.form.recipients,this,255);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="255" name="counter">
               <label for="body">Body</label>
-              <textarea onblur="textCounter(this,this.form.counter,255);" onkeyup="textCounter(this,this.form.counter,255);" type="textarea"  class="form-control" id="Body" name="body" rows="7"></textarea>
+              <textarea class="form-control" id="Body" name="body" rows="7"></textarea>
             </div>
-
             <button type="submit" class="btn btn-success">Create</button>
           </form>
         </div>
@@ -75,16 +73,6 @@
 @stop
 @section('customjs')
 <script>
-function textCounter( field, countfield, maxlimit ) {
- if ( field.value.length > maxlimit ) {
-  field.value = field.value.substring( 0, maxlimit );
-  field.blur();
-  field.focus();
-  return false;
- } else {
-  countfield.value = maxlimit - field.value.length;
- }
-},
   tinymce.init({
         relative_urls: false,
         file_browser_callback: function(field_name, url, type, win) {
@@ -100,4 +88,17 @@ function textCounter( field, countfield, maxlimit ) {
          ],
        });
 </script>
+<script>
+function textCounter( field, countfield, maxlimit ) {
+ if ( field.value.length > maxlimit ) {
+  field.value = field.value.substring( 0, maxlimit );
+  field.blur();
+  field.focus();
+  return false;
+ } else {
+  countfield.value = maxlimit - field.value.length;
+ }
+}
+</script>
+
 @stop

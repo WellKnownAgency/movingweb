@@ -46,7 +46,7 @@
                   <a href="/admin/posts/{{$post->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
                 </td>
                 <td>
-                  <a href="/admin/posts/" class="btn btn-danger btn-sm delete">Delete</a>
+                  <a href="/admin/posts/{{$post->id}}/delete" class="btn btn-danger btn-sm delete">Delete</a>
                 </td>
               </tr>
               @endforeach
