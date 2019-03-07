@@ -19012,6 +19012,30 @@ footer .pull-center {
   }
 }
 
+.button-container {
+  text-align: center;
+  margin-bottom: -80px;
+  position: relative;
+  z-index: 100;
+}
+
+.btn-blog {
+  background-color: #fff;
+  color: #000;
+  font-size: 0.75em;
+  border: 1px solid #65b2b8;
+  padding: 5px 15px;
+}
+
+.btn-blog:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.page-header-blog {
+  height: 500px;
+}
+
 .btn.btn-outline-primary:hover {
   color: #fff !important;
   background-color: #65b2b8;
@@ -19086,6 +19110,30 @@ tab-content {
 
 .in {
   opacity: 1;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: -80px;
+  position: relative;
+  z-index: 100;
+}
+
+.btn-blog {
+  background-color: #fff;
+  color: #000;
+  font-size: 0.75em;
+  border: 1px solid #65b2b8;
+  padding: 5px 15px;
+}
+
+.btn-blog:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.page-header-blog {
+  height: 500px;
 }
 
 .btn.btn-outline-primary:hover {

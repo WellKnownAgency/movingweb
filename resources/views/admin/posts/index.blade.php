@@ -40,7 +40,7 @@
                 <td><img src="/images/blog/{{$post->image}}" width="150px;" height"auto"></td>
                 <td>{{ $post->created_at}}</td>
                 <td class="text-right">
-                  <a href="" class="btn btn-success btn-sm">View</a>
+                  <a href="/blog/{{ $post->slug }}" class="btn btn-success btn-sm">View</a>
                 </td>
                 <td>
                   <a href="/admin/posts/{{$post->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
