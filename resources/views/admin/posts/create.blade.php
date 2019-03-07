@@ -61,7 +61,7 @@
             </div>
             <div class="form-group">
               <label for="body">Body</label>
-              <textarea class="form-control" id="Body" name="body" rows="7"></textarea>
+              <textarea class="form-control" id="body" name="body" rows="7"></textarea>
             </div>
             <button type="submit" class="btn btn-success">Create</button>
           </form>
