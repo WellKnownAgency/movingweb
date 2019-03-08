@@ -34,13 +34,14 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" style="padding-top:7px;">
                 <label for="metatitle" class="bmd-label-floating">Meta Title</label>
                 <input type="text" name="metatitle" class="form-control" id="metatitle" placeholder="Meta Title">
               </div>
               <div class="form-group col-md-6">
+                <input onblur="textCounter(this.form.recipients,this,160);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="160" name="counter">
                 <label for="dscr">Description</label>
-                <input type="text" class="form-control" name="dscr" id="dscr" placeholder="Description">
+                <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" placeholder="Description">
               </div>
             </div>
             <div class="fileinput fileinput-new text-center form-group col-md-6" data-provides="fileinput">
@@ -60,9 +61,10 @@
               <input type="text" class="form-control" name="excerpt" id="excerpt">
             </div>
             <div class="form-group">
-              <label for="body">Body</label>
-              <textarea class="form-control" id="body" name="body" rows="7"></textarea>
+              <label for="text">Body</label>
+              <textarea class="form-control" id="text" name="body" rows="20"></textarea>
             </div>
+
             <button type="submit" class="btn btn-success">Create</button>
           </form>
         </div>
@@ -73,20 +75,19 @@
 @stop
 @section('customjs')
 <script>
-  tinymce.init({
-        relative_urls: false,
-        file_browser_callback: function(field_name, url, type, win) {
-                // trigger file upload form
-                if (type == 'image') $('#formUpload input').click();
-            }
-         selector: "textarea",
-         plugins: [
-             "advlist autolink lists link image charmap print preview hr anchor pagebreak",
-             "searchreplace wordcount visualblocks visualchars code fullscreen",
-             "insertdatetime media nonbreaking save table contextmenu directionality",
-             "emoticons template paste textcolor colorpicker textpattern"
-         ],
-       });
+tinymce.init({
+       selector: "textarea",
+       plugins: [
+           "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+           "searchreplace wordcount visualblocks visualchars code fullscreen",
+           "insertdatetime media nonbreaking save table contextmenu directionality",
+           "emoticons template paste textcolor colorpicker textpattern"
+       ],
+       file_browser_callback: function(field_name, url, type, win) {
+          // trigger file upload form
+          if (type == 'image') $('#formUpload input').click();
+      }
+     });
 </script>
 <script>
 function textCounter( field, countfield, maxlimit ) {

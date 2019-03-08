@@ -34,13 +34,14 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" style="padding-top:7px;">
                 <label for="metatitle">Meta Title</label>
                 <input type="text" name="metatitle" class="form-control" id="metatitle" placeholder="Meta Title" value="{{$post->metatitle}}">
               </div>
               <div class="form-group col-md-6">
+                <input onblur="textCounter(this.form.recipients,this,160);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="160" name="counter">
                 <label for="dscr">Description</label>
-                <input type="text" class="form-control" name="dscr" id="dscr" placeholder="Description" value="{{$post->dscr}}">
+                <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" value="{{$post->dscr}}">
               </div>
             </div>
             <div class="fileinput fileinput-new text-center form-group col-md-6" data-provides="fileinput">
