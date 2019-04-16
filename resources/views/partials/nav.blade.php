@@ -13,17 +13,17 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="dropdown nav-item">
-            <a href="/" class="nav-link">
+            <a href="/pricing" class="nav-link">
               <i class="material-icons">attach_money</i> Pricing
             </a>
           </li>
 					<li class="nav-item">
-            <a class="nav-link" href="/blog" onclick="scrollToDownload()">
+            <a class="nav-link" href="/blog">
               <i class="material-icons">library_books</i> Blog
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="javascript:void(0)">
               <i class="material-icons">cloud_download</i> Support
             </a>
           </li>

@@ -1,10 +1,10 @@
 @extends('layouts.main')
 
-@section('title', 'Digital Agency - Advertising | Marketing | Web Design - WellKnown ')
+@section('title', 'MovingCRM - the best Moving Sftware Solutions for your Moving Company')
 
-@section('description', 'WellKnown Digital Agency provides Advertising , Marketing and Webdesign Services for your Business. Years of experience working with small Businesses give us an opportunity to guaranty you great results. Call now and get Free Consultation.')
+@section('description', 'MovingCRM is software made for movers to simplify managing processes of the company. Get Requests, Schedule and manage your working crew. All these and more with simple and intuitive design.')
 
-@section('keywords', 'Digital Agency, Online marketing, online advertising, marketing Agency, Advertising Agency, Web design agency, web development')
+@section('keywords', '')
 
 @section ('content')
 

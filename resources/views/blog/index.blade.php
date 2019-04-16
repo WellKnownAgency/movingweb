@@ -1,4 +1,4 @@
-@extends('layouts.mainblog')
+@extends('layouts.mainBlog')
 
 @section('title', ' ')
 

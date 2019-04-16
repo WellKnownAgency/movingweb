@@ -1,7 +1,7 @@
 
 <div class="row">
   <div class="col-md-10 ml-auto mr-auto">
-    <h2 class="title text-center">Related Posts</h2>
+    <h2 class="title text-center">Latest News</h2>
     <br>
     <div class="row">
       @foreach ($posts as $post)

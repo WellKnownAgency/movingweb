@@ -14,7 +14,8 @@
 
 
 Route::get('/', 'PagesController@getIndex');
-Route::get('blog', 'PagesController@blogIndex');
+Route::get('/pricing', 'PagesController@pricing');
+Route::get('/blog', 'PagesController@blogIndex');
 Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
 
 

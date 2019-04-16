@@ -11,6 +11,11 @@ class PagesController extends Controller
     return view('index')->withPosts($posts);
   }
 
+	public function pricing() {
+    $posts = Post::latest()->take(3)->get();
+    return view('pricing')->withPosts($posts);
+  }
+
   public function blogIndex() {
     $posts = Post::latest()->get();
     return view('blog/index')->withPosts($posts);

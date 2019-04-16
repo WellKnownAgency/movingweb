@@ -17361,7 +17361,7 @@ footer .pull-center {
 .card.bg-primary,
 .card.card-rotate.bg-primary .front,
 .card.card-rotate.bg-primary .back {
-  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+  background: linear-gradient(60deg, #294653, #65b2b8);
 }
 
 .card .card-header-info,
@@ -19012,6 +19012,39 @@ footer .pull-center {
   }
 }
 
+.pricing {
+  padding: 70px 0;
+}
+
+.card-pricing ul li i {
+  top: 6px;
+  position: relative;
+}
+
+.card-pricing {
+  text-align: center;
+}
+
+.card-pricing.card-background ul li,
+.card-pricing[class*=bg-] ul li {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-pricing ul li {
+  color: #999;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.card-pricing ul {
+  list-style: none;
+  padding: 0;
+  max-width: 240px;
+  margin: 10px auto;
+}
+
 .button-container {
   text-align: center;
   margin-bottom: -80px;
@@ -19110,6 +19143,39 @@ tab-content {
 
 .in {
   opacity: 1;
+}
+
+.pricing {
+  padding: 70px 0;
+}
+
+.card-pricing ul li i {
+  top: 6px;
+  position: relative;
+}
+
+.card-pricing {
+  text-align: center;
+}
+
+.card-pricing.card-background ul li,
+.card-pricing[class*=bg-] ul li {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-pricing ul li {
+  color: #999;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.card-pricing ul {
+  list-style: none;
+  padding: 0;
+  max-width: 240px;
+  margin: 10px auto;
 }
 
 .button-container {

@@ -6,7 +6,7 @@
 	</head>
 	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 		@include('partials.nav')
-		@include ('sections.header-blog')
+		@include ('sections.header-pricing')
 		@yield('content')
 		@include('partials.footer')
 		@include('partials/js')
