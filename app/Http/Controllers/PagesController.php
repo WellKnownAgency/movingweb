@@ -17,6 +17,16 @@ class PagesController extends Controller
     return view('pricing')->withPosts($posts);
   }
 
+  public function support() {
+    $posts = Post::latest()->take(3)->get();
+    return view('support')->withPosts($posts);
+  }
+
+  public function faq() {
+    $posts = Post::latest()->take(3)->get();
+    return view('faq')->withPosts($posts);
+  }
+
   public function blogIndex() {
     $posts = Post::latest()->get();
     return view('blog/index')->withPosts($posts);
