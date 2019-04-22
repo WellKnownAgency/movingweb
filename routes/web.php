@@ -18,7 +18,8 @@ Route::get('/pricing', 'PagesController@pricing');
 Route::get('/blog', 'PagesController@blogIndex');
 Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
 
-
+//POST
+Route::post('contact-us', 'PagesController@postContact');
 
 
 //admin panel

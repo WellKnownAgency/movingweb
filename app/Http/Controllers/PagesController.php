@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Post;
 use Illuminate\Http\Request;
+use Mail;
 
 class PagesController extends Controller
 {
@@ -27,5 +28,34 @@ class PagesController extends Controller
     return view('blog.single')->withPost($post)->withPosts($posts);
   }
 
+	public function postContact(Request $request) {
+		$this->validate($request, [
+      'first_name' 			=> 'required|max:255',
+      'last_name'  			=> 'required|max:255',
+      'company_name'    => 'required',
+      'company_website' => 'required',
+      'phone'   				=> 'required',
+      'email'     			=> 'required|email|max:100',
+			'date_time' 						=> 'required'
+    ]);
+
+		$data = array(
+			'first_name' => $request->first_name,
+			'last_name'     => $request->last_name,
+			'company_name'     => $request->company_name,
+			'company_website'     => $request->company_website,
+			'phone'      => $request->phone,
+			'email'      => $request->email,
+			'date_time'      => $request->date_time,
+		);
+
+		Mail::send('emails.notification', $data, function($message) use ($data){
+			$message->from('info@wknown.com');
+			$message->to('movinglcrm@gmail.com');
+			$message->subject('Contact Request');
+		});
+
+		return back();
+	}
 
 }
