@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-md-8 ml-auto mr-auto">
 			<h2 class="text-center title">Book a Free Online Demo</h2>
-			<h4 class="text-center description">Leaave your information and we will contact you to confirm date and time for online demo with MovingCRM.</h4>
+			<h4 class="text-center description">Leave your information and we will contact you to confirm date and time for online demo with MovingCRM.</h4>
 			<form class="contact-form" method="post" action="{{ url('contact-us') }}">
 				{{ csrf_field() }}
 				<!-- Personal Info -->

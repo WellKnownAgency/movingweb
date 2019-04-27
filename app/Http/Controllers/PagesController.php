@@ -22,6 +22,10 @@ class PagesController extends Controller
     return view('support')->withPosts($posts);
   }
 
+  public function home() {
+    return view('home');
+  }
+
   public function faq() {
     $posts = Post::latest()->take(3)->get();
     return view('faq')->withPosts($posts);

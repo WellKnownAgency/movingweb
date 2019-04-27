@@ -1,3 +1,20 @@
+.support_card:hover{
+	background-color: linear-gradient(60deg, #294653, #65b2b8);
+	box-shadow: 0 14px 26px -12px rgba(101, 178, 184, 0.42), 0 4px 23px 0px rgba(101, 178, 184, 0.12), 0 8px 10px -5px rgba(101, 178, 184, 0.2);
+}
+
+.faq_blockquote{
+	border-left: 5px solid #f8b50040;
+}
+
+.faq_card_header{
+	background: linear-gradient(60deg, #294653, #65b2b8) !important;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.25em;
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.3), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+}
+
 .bg-primary {
 
 }
@@ -53,7 +70,10 @@
 
 .btn-blog:hover{
   background-color: #fff;
-  color: #000;
+  color: #65b2b8;
+	box-shadow: 0 14px 26px -12px rgba(101, 178, 184, 0.42), 0 4px 23px 0px rgba(101, 178, 184, 0.12), 0 8px 10px -5px rgba(101, 178, 184, 0.2);
+	background-color: linear-gradient(60deg, #294653, #65b2b8);
+	border: 1px solid #65b2b8;
 
 }
 
