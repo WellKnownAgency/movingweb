@@ -41,7 +41,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-outline-primary btn-round btn-lg text-muted">
+								 <a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted">
 					           Free Online Demo
 					        <div class="ripple-container"></div>
 								</a>
@@ -64,7 +64,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-outline-primary btn-round btn-lg text-muted">
+								 <a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted">
 										 Free Online Demo
 									<div class="ripple-container"></div>
 								</a>
@@ -88,7 +88,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-outline-primary btn-round btn-lg text-muted">
+								 <a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted">
 										 Free Online Demo
 									<div class="ripple-container"></div>
 								</a>
@@ -112,7 +112,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-outline-primary  btn-round btn-lg text-muted">
+								 <a href="#contact" class="btn btn-outline-primary  btn-round btn-lg text-muted">
 										 Free Online Demo
 									<div class="ripple-container"></div>
 								</a>
@@ -136,7 +136,7 @@
 							 <br>
 							 <br>
 							 <div class="text-center">
-								 <a href="#" target="_blank" class="btn btn-outline-primary btn-round btn-lg text-muted">
+								 <a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted">
 										 Free Online Demo
 									<div class="ripple-container"></div>
 								</a>
