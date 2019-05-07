@@ -160,11 +160,13 @@ materialKit = {
       if (materialKit.misc.transparent) {
         materialKit.misc.transparent = false;
         $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+				$('.filsvg').removeClass('fil3');
       }
     } else {
       if (!materialKit.misc.transparent) {
         materialKit.misc.transparent = true;
         $('.navbar-color-on-scroll').addClass('navbar-transparent');
+				$('.filsvg').addClass('fil3');
       }
     }
   }, 17)
