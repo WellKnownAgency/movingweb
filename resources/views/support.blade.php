@@ -1,10 +1,10 @@
 @extends('layouts.support')
 
-@section('title', 'Digital Agency - Advertising | Marketing | Web Design - WellKnown ')
+@section('title', 'Moving CRM Customer Support')
 
-@section('description', 'WellKnown Digital Agency provides Advertising , Marketing and Webdesign Services for your Business. Years of experience working with small Businesses give us an opportunity to guaranty you great results. Call now and get Free Consultation.')
+@section('description', 'Customer Support 24/7 Moving CRM. Get Answers on all your questions about Moving CRM. Contact us now.')
 
-@section('keywords', 'Digital Agency, Online marketing, online advertising, marketing Agency, Advertising Agency, Web design agency, web development')
+@section('keywords', '')
 
 @section ('content')
 
@@ -64,7 +64,7 @@
 		</div>
 
     <div class="container">
-			@include('sections.contact')
+			@include('sections.support')
 		</div>
 		<div class="container">
 			@include('sections.posts')

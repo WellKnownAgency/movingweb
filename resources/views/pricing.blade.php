@@ -40,8 +40,8 @@
                 <div class="icon icon-danger">
                   <i class="material-icons">fingerprint</i>
                 </div>
-                <h4 class="info-title">Fingerprint</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">Secured</h4>
+                <p>All information about your customers is stored and protected with Secured Technologies and we can quaranty you efficient and continues work</p>
               </div>
             </div>
           </div>

@@ -72,4 +72,34 @@ class PagesController extends Controller
 		return back();
 	}
 
+	public function supportTicket(Request $request) {
+		$this->validate($request, [
+      'first_name' 			=> 'required|max:255',
+      'last_name'  			=> 'required|max:255',
+      'company_name'    => 'required',
+      'company_website' => 'required',
+      'phone'   				=> 'required',
+      'email'     			=> 'required|email|max:100',
+			'body' 						=> 'required'
+    ]);
+
+		$data = array(
+			'first_name' => $request->first_name,
+			'last_name'     => $request->last_name,
+			'company_name'     => $request->company_name,
+			'company_website'     => $request->company_website,
+			'phone'      => $request->phone,
+			'email'      => $request->email,
+			'body'      => $request->date_time,
+		);
+
+		Mail::send('emails.support', $data, function($message) use ($data){
+			$message->from('info@wknown.com');
+			$message->to('movinglcrm@gmail.com');
+			$message->subject('Contact Request');
+		});
+
+		return back();
+	}
+
 }

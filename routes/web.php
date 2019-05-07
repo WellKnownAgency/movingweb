@@ -23,6 +23,7 @@ Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@ge
 
 //POST
 Route::post('contact-us', 'PagesController@postContact');
+Route::post('support-ticket', 'PagesController@supportTicket');
 
 
 //admin panel

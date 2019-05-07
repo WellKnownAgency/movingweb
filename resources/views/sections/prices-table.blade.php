@@ -19,8 +19,10 @@
               <li><i class="material-icons text-primary">check</i> Schedule</li>
 							<li><i class="material-icons text-primary">check</i> Team Management</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
-							<li><i class="material-icons text-danger">close</i> Paperless Contracts</li>
-              <li><i class="material-icons text-danger">close</i> Marketing Automation</li>
+							<li><i class="material-icons text-primary">check</i> Secured Database</li>
+							<li><i class="material-icons text-primary">check</i> Group Assistant</li>
+							<li  class="disabled"><i class="material-icons disabled text-danger">close</i> Paperless Contracts</li>
+              <li  class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
@@ -41,8 +43,10 @@
               <li><i class="material-icons text-primary">check</i> Schedule</li>
 							<li><i class="material-icons text-primary">check</i> Team Management</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
-							<li><i class="material-icons text-danger">close</i> Paperless Contracts</li>
-              <li><i class="material-icons text-danger">close</i> Marketing Automation</li>
+							<li><i class="material-icons text-primary">check</i> Secured Database</li>
+							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
+              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
@@ -63,8 +67,10 @@
               <li><i class="material-icons text-primary">check</i> Schedule</li>
 							<li><i class="material-icons text-primary">check</i> Team Management</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
-							<li><i class="material-icons text-danger">close</i> Paperless Contracts</li>
-              <li><i class="material-icons text-danger">close</i> Marketing Automation</li>
+							<li><i class="material-icons text-primary">check</i> Secured Database</li>
+							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
+              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
@@ -85,8 +91,10 @@
               <li><i class="material-icons text-primary">check</i> Schedule</li>
 							<li><i class="material-icons text-primary">check</i> Team Management</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
-							<li><i class="material-icons text-danger">close</i> Paperless Contracts</li>
-              <li><i class="material-icons text-danger">close</i> Marketing Automation</li>
+							<li><i class="material-icons text-primary">check</i> Secured Database</li>
+							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
+              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
