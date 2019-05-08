@@ -1,4 +1,4 @@
-@extends('layout.singleblog')
+@extends('layouts.singleblog')
 
 @section('title', "$post->seotitle")
 
