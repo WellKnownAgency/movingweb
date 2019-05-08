@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 600px) {
+    .hidden-mob {
+      display: none;
+    }
+  }
+
 .disabled {
 	color: rgba(0, 0, 0, 0.1) !important;
 }

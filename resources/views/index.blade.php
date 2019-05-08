@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'MovingCRM - the best Moving Sftware Solutions for your Moving Company')
+@section('title', 'MovingCRM - Software for your Moving Company')
 
 @section('description', 'MovingCRM is software made for movers to simplify managing processes of the company. Get Requests, Schedule and manage your working crew. All these and more with simple and intuitive design.')
 

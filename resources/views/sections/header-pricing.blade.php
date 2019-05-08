@@ -10,7 +10,7 @@
            Free Online Demo
         </a>
       </div>
-			<div class="col-md-6 text-center" style="position: relative;">
+			<div class="col-md-6 text-center hidden-mob" style="position: relative;">
 				<img src="/images/main_banner_image.png" class="main-media" style="position: relative;"/>
 					<a href="#" class="btn btn-primary btn-round my-auto" style="position: absolute; top: 120px; right: 240px;">
 						<i class="fa fa-play"></i>
