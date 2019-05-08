@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-6">
         <h1 class="title">Moving CRM <br> F.A.Q.</h1>
-        <h4>We collect those question for your convince</h4>
+        <h4>We collect those question for your convenience</h4>
         <br>
         <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
            Free Online Demo

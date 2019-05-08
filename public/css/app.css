@@ -19179,6 +19179,10 @@ tab-content {
   opacity: 1;
 }
 
+.ul_faq {
+  font-size: 0.8em;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19344,6 +19348,10 @@ tab-content {
 
 .in {
   opacity: 1;
+}
+
+.ul_faq {
+  font-size: 0.8em;
 }
 
 .navbar-laravel {
