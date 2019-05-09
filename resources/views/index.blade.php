@@ -17,8 +17,8 @@
       <div class="section text-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Let's talk product</h2>
-            <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+            <h2 class="title">Why MovingCRM?</h2>
+            <h5 class="description"></h5>
           </div>
         </div>
         <div class="features">
@@ -26,10 +26,10 @@
             <div class="col-md-4">
               <div class="info">
                 <div class="icon icon-info">
-                  <i class="material-icons">chat</i>
+                  <i class="material-icons">question_answer</i>
                 </div>
-                <h4 class="info-title">Free Chat</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">24/7 Customer Service</h4>
+                <p>MovingCRM team pays special attention to our client support. Whether you have questions regarding the software work or share your ideas on how we can improve the CRM, be free to contact us any day at any time.</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -37,17 +37,17 @@
                 <div class="icon icon-success">
                   <i class="material-icons">verified_user</i>
                 </div>
-                <h4 class="info-title">Verified Users</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">Protected Database</h4>
+                <p>MovingCRM is placed on Digital Ocean cloud servers, which provide one of the safest places to store your data with constant security monitoring and data backup.</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="info">
                 <div class="icon icon-danger">
-                  <i class="material-icons">fingerprint</i>
+                  <i class="material-icons">school</i>
                 </div>
-                <h4 class="info-title">Fingerprint</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">Last Technologies</h4>
+                <p>MovingCRM is developed with the newest and best technologies in the digital world. Our developers made a special focus not only on a smooth app work but also on the speed of the software.</p>
               </div>
             </div>
           </div>
