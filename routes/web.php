@@ -20,6 +20,7 @@ Route::get('/home', 'PagesController@home');
 Route::get('/faq', 'PagesController@faq');
 Route::get('/blog', 'PagesController@blogIndex');
 Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
+Route::get('sitemap.xml', 'PagesController@sitemap');
 
 //POST
 Route::post('contact-us', 'PagesController@postContact');

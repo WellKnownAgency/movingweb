@@ -7,6 +7,12 @@ use Mail;
 
 class PagesController extends Controller
 {
+	public function sitemap()
+	{
+		$posts = Post::orderBy('updated_at', 'DESC')->get();
+		return response()->view('pages.sitemap', compact('posts'))->header('Content-Type', 'text/xml');
+	}
+
   public function getIndex() {
     $posts = Post::latest()->take(3)->get();
     return view('index')->withPosts($posts);
