@@ -10,7 +10,7 @@ class PagesController extends Controller
 	public function sitemap()
 	{
 		$posts = Post::orderBy('updated_at', 'DESC')->get();
-		return response()->view('pages.sitemap', compact('posts'))->header('Content-Type', 'text/xml');
+		return response()->view('sitemap', compact('posts'))->header('Content-Type', 'text/xml');
 	}
 
   public function getIndex() {
