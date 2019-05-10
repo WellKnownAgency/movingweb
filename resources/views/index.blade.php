@@ -29,7 +29,7 @@
                   <i class="material-icons">question_answer</i>
                 </div>
                 <h4 class="info-title">24/7 Customer Service</h4>
-                <p>MovingCRM team pays special attention to our client support. Whether you have questions regarding the software work or share your ideas on how we can improve the CRM, be free to contact us any day at any time.</p>
+                <p>MovingCRM team pays special attention to our client support. Whether you have questions regarding the software work or share your ideas on how we can improve the CRM, feel free to contact us any day at any time.</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -38,7 +38,7 @@
                   <i class="material-icons">verified_user</i>
                 </div>
                 <h4 class="info-title">Protected Database</h4>
-                <p>MovingCRM is placed on Digital Ocean cloud servers, which provide one of the safest places to store your data with constant security monitoring and data backup.</p>
+                <p>MovingCRM use <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> cloud servers, which provide one of the safest places to store your data with constant security monitoring and data backup.</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -46,8 +46,8 @@
                 <div class="icon icon-danger">
                   <i class="material-icons">school</i>
                 </div>
-                <h4 class="info-title">Last Technologies</h4>
-                <p>MovingCRM is developed with the newest and best technologies in the digital world. Our developers made a special focus not only on a smooth app work but also on the speed of the software.</p>
+                <h4 class="info-title">Newest Technologies</h4>
+                <p>MovingCRM is developed with the newest and best technologies in the digital world. Our developers made a special focus not only on a smooth app work but also on the speed of the software and safety.</p>
               </div>
             </div>
           </div>

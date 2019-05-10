@@ -13,7 +13,7 @@
           MovingCRM Posts
         </div>
         <div class="card-body">
-          <a href="/admin/posts/create" class="btn btn-success">Create Post</a>
+          <a href="/admin/posts/create" class="btn btn-success text-dark">Create Post</a>
         </div>
       </div>
     </div>

@@ -27,7 +27,11 @@ Route::post('support-ticket', 'PagesController@supportTicket');
 
 
 //admin panel
-  Route::get('/admin', 'AdminPagesController@index');
-  Route::resource('/admin/posts', 'PostController');
-  Route::get('/admin/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
+Route::prefix('admin')->middleware('auth:web')->group(function() {
+  Route::get('/', 'AdminPagesController@index');
+  Route::resource('/posts', 'PostController');
+  Route::get('/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
   Route::post('/posts/{id}','PostController@update');
+});
+
+Auth::routes();

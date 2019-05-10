@@ -26,27 +26,26 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="title" class="bmd-label-floating">Title</label>
-                <input type="text" name="title" class="form-control" id="title" placeholder="Title">
+                <input type="text" name="title" class="form-control" id="title">
               </div>
               <div class="form-group col-md-6">
-                <label for="slug">Slug</label>
-                <input type="text" class="form-control" name="slug" id="slug" placeholder="Slug">
+                <label for="slug" class="bmd-label-floating">Slug</label>
+                <input type="text" class="form-control" name="slug" id="slug">
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6" style="padding-top:7px;">
+              <div class="form-group col-md-6">
                 <label for="metatitle" class="bmd-label-floating">Meta Title</label>
-                <input type="text" name="metatitle" class="form-control" id="metatitle" placeholder="Meta Title">
+                <input type="text" name="metatitle" class="form-control" id="metatitle">
               </div>
               <div class="form-group col-md-6">
                 <input onblur="textCounter(this.form.recipients,this,160);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="160" name="counter">
-                <label for="dscr">Description</label>
                 <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" placeholder="Description">
               </div>
             </div>
             <div class="fileinput fileinput-new text-center form-group col-md-6" data-provides="fileinput">
               <div class="fileinput-new thumbnail img-raised">
-                  <img src="https://placezombie.com/640x360" width="400" height="auto">
+                  <img src="https://placezombie.com/640x360" width="100%" height="auto">
               </div>
               <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
               <div>
@@ -65,7 +64,7 @@
               <textarea class="form-control" id="text" name="body" rows="20"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-success">Create</button>
+            <button type="submit" class="btn btn-success text-dark">Create</button>
           </form>
         </div>
       </div>

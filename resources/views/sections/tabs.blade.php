@@ -72,7 +72,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/calculator.png" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/requests.png" class="rounded image-shadow"  width="100%"/>
 					</div>
 				</div>
 	    </div>
@@ -96,7 +96,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/calculator.png" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/schedule.png" class="rounded image-shadow"  width="100%"/>
 					</div>
 				</div>
 	    </div>
@@ -120,7 +120,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/calculator.png" class="rounded  image-shadow"  width="100%"/>
+						<img src="/images/team.png" class="rounded  image-shadow"  width="100%"/>
 					</div>
 				</div>
 	    </div>
@@ -144,7 +144,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/calculator.png" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/marketing.png" class="rounded image-shadow"  width="100%"/>
 					</div>
 				</div>
 	    </div>
