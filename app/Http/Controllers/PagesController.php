@@ -71,7 +71,7 @@ class PagesController extends Controller
 
 		Mail::send('emails.notification', $data, function($message) use ($data){
 			$message->from('info@wknown.com');
-			$message->to('movinglcrm@gmail.com');
+			$message->to('info@mail.moving-crm.com');
 			$message->subject('Contact Request');
 		});
 
@@ -100,9 +100,9 @@ class PagesController extends Controller
 		);
 
 		Mail::send('emails.support', $data, function($message) use ($data){
-			$message->from('info@wknown.com');
+			$message->from('info@mail.moving-crm.com');
 			$message->to('movinglcrm@gmail.com');
-			$message->subject('Contact Request');
+			$message->subject('Support Ticket');
 		});
 
 		return back();
