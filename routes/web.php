@@ -31,3 +31,7 @@ Route::post('support-ticket', 'PagesController@supportTicket');
   Route::resource('/admin/posts', 'PostController');
   Route::get('/admin/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
   Route::post('/posts/{id}','PostController@update');
+  Route::resource('/admin/features', 'FeatureController');
+  Route::post('/features/{id}','FeatureController@update');
+  Route::resource('/admin/categories', 'CategoryController');
+  Route::post('/categories/{id}','CategoryController@update');
