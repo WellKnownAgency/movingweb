@@ -20,6 +20,7 @@ Route::get('/home', 'PagesController@home');
 Route::get('/faq', 'PagesController@faq');
 Route::get('/blog', 'PagesController@blogIndex');
 Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
+Route::get('sitemap.xml', 'PagesController@sitemap');
 
 //POST
 Route::post('contact-us', 'PagesController@postContact');
@@ -27,11 +28,11 @@ Route::post('support-ticket', 'PagesController@supportTicket');
 
 
 //admin panel
-  Route::get('/admin', 'AdminPagesController@index');
-  Route::resource('/admin/posts', 'PostController');
-  Route::get('/admin/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
+Route::prefix('admin')->middleware('auth:web')->group(function() {
+  Route::get('/', 'AdminPagesController@index');
+  Route::resource('/posts', 'PostController');
+  Route::get('/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
   Route::post('/posts/{id}','PostController@update');
-  Route::resource('/admin/features', 'FeatureController');
-  Route::post('/features/{id}','FeatureController@update');
-  Route::resource('/admin/categories', 'CategoryController');
-  Route::post('/categories/{id}','CategoryController@update');
+});
+
+Auth::routes();

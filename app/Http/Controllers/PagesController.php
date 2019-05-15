@@ -7,6 +7,12 @@ use Mail;
 
 class PagesController extends Controller
 {
+	public function sitemap()
+	{
+		$posts = Post::orderBy('updated_at', 'DESC')->get();
+		return response()->view('sitemap', compact('posts'))->header('Content-Type', 'text/xml');
+	}
+
   public function getIndex() {
     $posts = Post::latest()->take(3)->get();
     return view('index')->withPosts($posts);
@@ -64,7 +70,7 @@ class PagesController extends Controller
 		);
 
 		Mail::send('emails.notification', $data, function($message) use ($data){
-			$message->from('info@wknown.com');
+			$message->from('info@mail.moving-crm.com');
 			$message->to('movinglcrm@gmail.com');
 			$message->subject('Contact Request');
 		});
@@ -94,9 +100,9 @@ class PagesController extends Controller
 		);
 
 		Mail::send('emails.support', $data, function($message) use ($data){
-			$message->from('info@wknown.com');
+			$message->from('info@mail.moving-crm.com');
 			$message->to('movinglcrm@gmail.com');
-			$message->subject('Contact Request');
+			$message->subject('Support Ticket');
 		});
 
 		return back();
