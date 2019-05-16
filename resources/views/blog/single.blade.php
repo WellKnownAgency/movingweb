@@ -42,9 +42,8 @@
 @stop
 
 @section('content')
-<div class="page-header page-header-blog" data-parallax="true" style="background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(219, 70, 35, 0.6));}">
-	<div style="background-image: url(/images/blog/{{ $post->image }});">
-  	<div class="container">
+<div class="page-header page-header-blog" data-parallax="true" style="background-image: url(/images/blog/{{ $post->image }});">
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         <h1 class="title">{{ $post->title }}</h1>
@@ -70,7 +69,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 
 <div class="main main-raised">
