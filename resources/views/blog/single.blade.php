@@ -1,6 +1,6 @@
 @extends('layouts.blog')
 
-@section('title', "$post->seotitle")
+@section('title', "$post->title")
 
 @section('description', "$post->dscr")
 
@@ -31,11 +31,11 @@
 <meta property="og:url" content=" "/>
 <meta property="og:image" content=" "/>
 <meta property="og:description" content="{{ $post->dscr }}" />
-<meta property="og:site_name" content="WellKnown Agency" />
+<meta property="og:site_name" content="MovingCRM" />
 <meta property="article:published_time" content="" />
 <meta property="article:modified_time" content=" " />
 <meta property="article:section" content="Article Section" />
-<meta property="article:tag" content="Marketing" />
+<meta property="article:tag" content="Moving Software" />
 <meta property="fb:admins" content="153425045259276" />
 
 
@@ -87,3 +87,30 @@
 @include('sections.chat')
 
 @stop
+@section('customjs')
+<script>
+
+   var popupSize = {
+       width: 550,
+       height: 550
+   };
+
+   $(document).on('click', '#shareb', function(e){
+
+       var
+           verticalPos = Math.floor(($(window).width() - popupSize.width) / 2),
+           horisontalPos = Math.floor(($(window).height() - popupSize.height) / 2);
+
+       var popup = window.open($(this).prop('href'), 'social',
+           'width='+popupSize.width+',height='+popupSize.height+
+           ',left='+verticalPos+',top='+horisontalPos+
+           ',location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1');
+
+       if (popup) {
+           popup.focus();
+           e.preventDefault();
+       }
+
+   });
+</script>
+@stop 

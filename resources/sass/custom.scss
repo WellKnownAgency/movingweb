@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.darkened {
+  position: relative;
+}
+
 .darkend::before {
 		content: '';
     position: absolute;

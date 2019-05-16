@@ -19016,6 +19016,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.darkened {
+  position: relative;
+}
+
 .darkend::before {
   content: "";
   position: absolute;
@@ -19195,6 +19199,10 @@ tab-content {
 
 html {
   scroll-behavior: smooth;
+}
+
+.darkened {
+  position: relative;
 }
 
 .darkend::before {
