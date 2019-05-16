@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Feature;
-
+use App\Category;
 use Illuminate\Http\Request;
 
 class FeatureController extends Controller
@@ -15,7 +15,8 @@ class FeatureController extends Controller
 
   public function create()
   {
-    return view('admin.features.create');
+    $categories = Category::get();
+    return view('admin.features.create')->withCategories($categories);
   }
 
   public function store(Request $request)
@@ -31,6 +32,7 @@ class FeatureController extends Controller
    $feature->title = $request->title;
    $feature->slug = $request->slug;
    $feature->dscr = $request->dscr;
+   $feature->category_id = $request->category_id;
    $feature->body = $request->body;
 
 
@@ -39,5 +41,28 @@ class FeatureController extends Controller
     return redirect()->route('features.index');
   }
 
+  public function edit($id)
+  {
+      $feature = Feature::with('category')->where('id', $id)->first();
+      $categories = Category::all();
+      return view('admin.features.edit')->withFeature($feature)->withCategories($categories);
+  }
+
+
+  public function update(Request $request, $id)
+  {
+   // store in the database
+   $feature = Feature::find($id);
+   $feature->title = $request->input('title');
+   $feature->slug = $request->input('slug');
+   $feature->dscr = $request->input('dscr');
+   $feature->category_id = $request->category_id;
+   $feature->body = $request->input('body');
+
+
+   $feature->save();
+
+    return redirect()->route('features.index', $feature->id);
+}
 
 }

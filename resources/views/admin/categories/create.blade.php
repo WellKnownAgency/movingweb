@@ -26,11 +26,11 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="name" class="bmd-label-floating">Name</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+                <input type="text" name="name" class="form-control" id="name">
               </div>
               <div class="form-group col-md-6">
-                <label for="slug">Slug</label>
-                <input type="text" class="form-control" name="slug" id="slug" placeholder="Slug">
+                <label for="slug" class="bmd-label-floating">Slug</label>
+                <input type="text" class="form-control" name="slug" id="slug">
               </div>
             </div>
             <button type="submit" class="btn btn-success">Create</button>

@@ -10,10 +10,10 @@
     <div class="col-md-3">
       <div class="card" style="width: 100%;">
         <h5 class="card-header">
-          Fancy Flowers Edit Post
+          Edit Feature
         </h5>
         <div class="card-body">
-          <a href="/admin/posts" class="btn btn-info">All Posts</a>
+          <a href="/admin/features" class="btn btn-info">All Features</a>
         </div>
       </div>
     </div>
@@ -34,15 +34,26 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-12">
                 <input onblur="textCounter(this.form.recipients,this,160);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="160" name="counter">
                 <label for="dscr">Description</label>
-                <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" value="{{$post->dscr}}">
+                <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" value="{{$feature->dscr}}">
               </div>
             </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputState">Category</label>
+                <select id="inputState" class="form-control" name="category_id">
+                  @foreach ($categories as $category)
+                  <option value="{{$category->id}}">{{ $category->name }}</option>
+                  @endforeach
+                </select>
+              </div>
+            </div>
+
             <div class="form-group">
               <label for="body">Body</label>
-              <textarea class="form-control" id="Body" name="body" rows="7">{{$post->body}}</textarea>
+              <textarea class="form-control" id="Body" name="body" rows="7">{{$feature->body}}</textarea>
             </div>
 
             <button type="submit" class="btn btn-success">Save Changes</button>

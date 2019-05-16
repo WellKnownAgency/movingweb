@@ -22,16 +22,13 @@ class CategoryController extends Controller
   {
     // validate the data
    $this->validate($request, array(
-           'title'         => 'required|max:255',
+           'name'         => 'required|max:255',
            'slug'          => 'required|alpha_dash|min:5|max:255|unique:categories,slug',
-           'dscr'          => 'required'
        ));
    // store in the database
    $category = new Category;
-   $category->title = $request->title;
+   $category->name = $request->name;
    $category->slug = $request->slug;
-   $category->dscr = $request->dscr;
-   $category->body = $request->body;
 
 
    $category->save();

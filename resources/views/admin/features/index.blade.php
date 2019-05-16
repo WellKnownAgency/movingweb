@@ -40,13 +40,13 @@
                 <td></td>
                 <td>{{ $feature->created_at}}</td>
                 <td class="text-right">
-                  <a href="/blog/{{ $feature->slug }}" class="btn btn-success btn-sm">View</a>
+                  <a href="/support/{{ $feature->slug }}" class="btn btn-success btn-sm">View</a>
                 </td>
                 <td>
-                  <a href="/admin/posts/{{$feature->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
+                  <a href="/admin/features/{{$feature->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
                 </td>
                 <td>
-                  <a href="/admin/posts/{{$feature->id}}/delete" class="btn btn-danger btn-sm delete">Delete</a>
+                  <a href="/admin/features/{{$feature->id}}/delete" class="btn btn-danger btn-sm delete">Delete</a>
                 </td>
               </tr>
               @endforeach

@@ -26,27 +26,28 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="title" class="bmd-label-floating">Title</label>
-                <input type="text" name="title" class="form-control" id="title" placeholder="Title">
+                <input type="text" name="title" class="form-control" id="title">
               </div>
               <div class="form-group col-md-6">
-                <label for="slug">Slug</label>
-                <input type="text" class="form-control" name="slug" id="slug" placeholder="Slug">
+                <label for="slug" class="bmd-label-floating">Slug</label>
+                <input type="text" class="form-control" name="slug" id="slug">
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6" style="padding-top:7px;">
-                <label for="metatitle" class="bmd-label-floating">Meta Title</label>
-                <input type="text" name="metatitle" class="form-control" id="metatitle" placeholder="Meta Title">
-              </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-12">
                 <input onblur="textCounter(this.form.recipients,this,160);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="160" name="counter">
                 <label for="dscr">Description</label>
                 <input onblur="textCounter(this,this.form.counter,160);" onkeyup="textCounter(this,this.form.counter,160);" type="textarea" class="form-control" name="dscr" id="dscr" placeholder="Description">
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6" style="padding-top:7px;">
-                <label for="category" class="bmd-label-floating">Category</label>
+              <div class="form-group col-md-6">
+                <label for="inputState">Category</label>
+                <select id="inputState" class="form-control" name="category_id">
+                  @foreach ($categories as $category)
+                  <option value="{{$category->id}}">{{ $category->name }}</option>
+                  @endforeach
+                </select>
               </div>
             </div>
             <div class="form-group">

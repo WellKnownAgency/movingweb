@@ -19,7 +19,10 @@ class CreateFeaturesTable extends Migration
           $table->string('slug');
           $table->string('dscr');
           $table->text('body');
-          $table->integer('category_id');
+          $table->integer('category_id')->unsigned()->nullable();
+          $table->foreign('category_id')->references('id')->on('categories')
+              ->onUpdate('cascade')->onDelete('cascade');
+
           $table->timestamps();
         });
     }

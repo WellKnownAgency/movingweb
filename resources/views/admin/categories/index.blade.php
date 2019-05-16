@@ -37,9 +37,6 @@
                 <td >{{ $category->slug }}</td>
                 <td></td>
                 <td>{{ $category->created_at}}</td>
-                <td class="text-right">
-                  <a href="/blog/{{ $category->slug }}" class="btn btn-success btn-sm">View</a>
-                </td>
                 <td>
                   <a href="/admin/posts/{{$category->id}}/delete" class="btn btn-danger btn-sm delete">Delete</a>
                 </td>
