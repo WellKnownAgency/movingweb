@@ -42,10 +42,10 @@
 @stop
 
 @section('content')
-<div class="page-header page-header-blog" data-parallax="true" style="background-image: url(/images/blog/{{ $post->image }});">
+<div class="page-header page-header-blog darkend" data-parallax="true" style="background-image: url(/images/blog/{{ $post->image }});">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h1 class="title">{{ $post->title }}</h1>
         <br>
               <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
@@ -60,12 +60,6 @@
               <a id="shareb" href="https://plus.google.com/share?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-google btn-round">
                   <i class="fab fa-google"></i>
               </a>
-      </div>
-			<div class="col-md-6 text-center" style="position: relative;">
-				<img src="/images/main_banner_image.png" class="main-media" style="position: relative;"/>
-					<a href="#" class="btn btn-primary btn-round my-auto" style="position: absolute; top: 120px; right: 240px;">
-						<i class="fa fa-play"></i>
-					</a>
       </div>
     </div>
   </div>
