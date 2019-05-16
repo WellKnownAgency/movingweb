@@ -58,7 +58,7 @@
                   <i class="fab fa-facebook-square"></i>
               </a>
               <a id="shareb" href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-linkedin btn-round">
-                  <i class="fab fa-google"></i>
+                  <i class="fab fa-linkedin"></i>
               </a>
       </div>
     </div>
