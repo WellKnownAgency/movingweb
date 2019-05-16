@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="title">Moving CRM</h1>
-        <h4>Software for Movers</h4>
+        <h1 class="title">Moving CRM Blog</h1>
+        <h4>News about Moving Company Software</h4>
         <br>
         <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
            Free Online Demo

@@ -2,7 +2,7 @@
 
 @section('title', 'Moving CRM Blog')
 
-@section('description', 'Moving CRM blog. Articles about moving industry.')
+@section('description', 'Moving CRM blog. Articles about moving industry and software for movers. find all the information regarding moving business.')
 
 @section('keywords',  ' ')
 
@@ -17,7 +17,7 @@
       @foreach($posts as $post)
       <div class= "col-md-4" style="padding-top:30px;">
         <div class="card card-blog">
-          <div class="card-header card-header-image">
+          <div class="card-header card-header-image darkend">
               <a href="/blog/{{ $post->slug }}">
                   <img class="img" src="/images/blog/{{ $post->image }}">
                   <div class="card-title">
