@@ -1,4 +1,4 @@
-@section('title', '')
+@section('title', 'MovingCRM Features')
 @section('dscr', '')
 @section('keywords', '')
 
@@ -13,7 +13,8 @@
           MovingCRM Features
         </div>
         <div class="card-body">
-          <a href="/admin/features/create" class="btn btn-success">Create Feature</a>
+          <a href="/admin/features/create" class="btn btn-success text-dark">Create Feature</a>
+					<a href="/admin/categories/create" class="btn btn-success text-dark">Create Category</a>
         </div>
       </div>
     </div>

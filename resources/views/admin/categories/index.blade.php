@@ -1,4 +1,4 @@
-@section('title', '')
+@section('title', 'Features Categories')
 @section('dscr', '')
 @section('keywords', '')
 
@@ -13,7 +13,7 @@
           MovingCRM Categories
         </div>
         <div class="card-body">
-          <a href="/admin/categories/create" class="btn btn-success">Create category</a>
+          <a href="/admin/categories/create" class="btn btn-success text-dark">Create Category</a>
         </div>
       </div>
     </div>
