@@ -9,5 +9,6 @@
 		@yield('content')
 		@include('partials.footer')
 		@include('partials/js')
+		@yield('customjs')
 	</body>
 </html>

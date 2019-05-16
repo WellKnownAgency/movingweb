@@ -48,16 +48,16 @@
       <div class="col-md-12">
         <h1 class="title">{{ $post->title }}</h1>
         <br>
-              <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
+              <a href="#contact" class="btn btn-success btn-round text-muted">
                  Free Online Demo
               </a>
-              <a id="shareb" href="https://twitter.com/intent/tweet?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-twitter btn-round">
+              <a id="shareb" href="https://twitter.com/intent/tweet?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-twitter btn-round">
                   <i class="fab fa-twitter"></i>
               </a>
-              <a id="shareb" href="https://www.facebook.com/sharer.php?u={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-facebook btn-round">
+              <a id="shareb" href="https://www.facebook.com/sharer.php?u={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-facebook btn-round">
                   <i class="fab fa-facebook-square"></i>
               </a>
-              <a id="shareb" href="https://plus.google.com/share?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-google btn-round">
+              <a id="shareb" href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-linkedin btn-round">
                   <i class="fab fa-google"></i>
               </a>
       </div>
@@ -69,7 +69,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 ml-auto mr-auto">
+        <div class="col-md-10 ml-auto mr-auto posts-p">
           {!! $post->body !!}
         </div>
       </div>
@@ -113,4 +113,4 @@
 
    });
 </script>
-@stop 
+@stop
