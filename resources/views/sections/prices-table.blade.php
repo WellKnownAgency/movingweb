@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto text-center">
         <h2 class="title">Pricing Plans for your Moving Company</h2>
+				<h3>Get a Free 14 Days Trial</h3>
         <h5 class="description">You have Free Unlimited Support with any plan you choose.</h5>
         <div class="section-space"></div>
       </div>
@@ -21,6 +22,7 @@
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Group Assistant</li>
+							<li><i class="material-icons text-primary">check</i> 14 Days trial</li>
 							<li  class="disabled"><i class="material-icons disabled text-danger">close</i> Paperless Contracts</li>
               <li  class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
             </ul>
@@ -45,8 +47,9 @@
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li><i class="material-icons text-primary">check</i> 14 Days trial</li>
 							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
-              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
+              <li class="disabled"><i class="material-icons disabled text-primary">check</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
@@ -69,8 +72,9 @@
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li><i class="material-icons text-primary">check</i> 14 Days trial</li>
 							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
-              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
+              <li class="disabled"><i class="material-icons disabled text-primary">check</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
@@ -93,8 +97,9 @@
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
+							<li><i class="material-icons text-primary">check</i> 14 Days trial</li>
 							<li class="disabled"><i class="material-icons disabled text-primary">check</i> Paperless Contracts</li>
-              <li class="disabled"><i class="material-icons disabled text-danger">close</i> Marketing Automation</li>
+              <li class="disabled"><i class="material-icons disabled text-primary">check</i> Marketing Automation</li>
             </ul>
           </div>
           <div class="card-footer justify-content-center">
