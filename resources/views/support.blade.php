@@ -14,7 +14,7 @@
 
 				<div class="row">
 				  <div class="col-md-4">
-						<a href="/faq">
+						<a href="/features">
 				    <div class="card support_card">
 				      <div class="card-body">
 	              <div class="info">

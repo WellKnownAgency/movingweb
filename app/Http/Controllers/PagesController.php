@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Post;
+use App\Category;
+use App\Feature;
 use Illuminate\Http\Request;
 use Mail;
 
@@ -46,6 +48,16 @@ class PagesController extends Controller
     $post = Post::where('slug', '=', $slug)->first();
     $posts = Post::latest()->where('id', '!=', $post->id)->take(3)->get();
     return view('blog.single')->withPost($post)->withPosts($posts);
+  }
+
+	public function featureIndex() {
+    $categories = Category::with('features')->orderBy('created_at', 'ASC')->get();
+    return view('features/index', compact('categories'), compact('features'));
+  }
+
+	public function getSingleFeature($slug) {
+    $feature = Feature::where('slug', '=', $slug)->first();
+    return view('features.single')->withFeature($feature);
   }
 
 	public function postContact(Request $request) {
