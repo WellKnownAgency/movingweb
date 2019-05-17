@@ -52,7 +52,7 @@ class PagesController extends Controller
 
 	public function featureIndex() {
     $categories = Category::with('features')->orderBy('created_at', 'ASC')->get();
-    return view('features/index', compact('categories'), compact('features'));
+    return view('features/index', compact('categories'));
   }
 
 	public function getSingleFeature($slug) {
