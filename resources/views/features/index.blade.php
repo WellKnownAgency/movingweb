@@ -22,7 +22,7 @@
           </div>
           <ul class="list-group list-group-flush">
             @foreach($category->features as $feature)
-            <li class="list-group-item" style="font-size:1.35em;"><i class="now-ui-icons outline-library_books"></i><a href="/features/{{ $feature->slug }}">{{$feature -> title}}</a></li>
+            <li class="list-group-item" style="font-size:1.35em; color:#999;"><i class="now-ui-icons outline-library_books"></i><a href="/features/{{ $feature->slug }}" class="features_list_a" style=" color:#000;">{{$feature -> title}}</a></li>
             @endforeach
           </ul>
         </div>
