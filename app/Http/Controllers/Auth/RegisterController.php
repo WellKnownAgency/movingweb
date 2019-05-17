@@ -36,7 +36,7 @@ class RegisterController extends Controller
      * @return void
      */
 
-		 /* public function showRegistrationForm()
+		 public function showRegistrationForm()
      {
          return redirect('login');
      }
@@ -44,7 +44,7 @@ class RegisterController extends Controller
       public function register()
       {
 
-      }*/
+      }
 
     public function __construct()
     {

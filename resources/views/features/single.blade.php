@@ -39,7 +39,7 @@
 <div class="page-header page-header-blog" data-parallax="true" style="background:linear-gradient(135deg,#65b2b8,#91ab6d);">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h1 class="title">{{ $feature->title }}</h1>
         <br>
               <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
@@ -55,12 +55,6 @@
                   <i class="fab fa-google"></i>
               </a>
       </div>
-			<div class="col-md-6 text-center" style="position: relative;">
-				<img src="/images/main_banner_image.png" class="main-media" style="position: relative;"/>
-					<a href="#" class="btn btn-primary btn-round my-auto" style="position: absolute; top: 120px; right: 240px;">
-						<i class="fa fa-play"></i>
-					</a>
-      </div>
     </div>
   </div>
 </div>
@@ -69,7 +63,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 ml-auto mr-auto">
+        <div class="col-md-10 ml-auto mr-auto posts-p">
           {!! $feature->body !!}
         </div>
       </div>

@@ -1,8 +1,8 @@
 @extends('layouts.mainblog')
 
-@section('title', 'Moving CRM Blog')
+@section('title', 'Moving CRM Study Guide')
 
-@section('description', 'Moving CRM blog. Articles about moving industry.')
+@section('description', 'Moving CRM Study Guide. Learn Everything about MovingCRM.')
 
 @section('keywords',  ' ')
 
