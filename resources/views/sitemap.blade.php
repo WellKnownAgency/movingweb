@@ -36,4 +36,11 @@
             <priority>0.70</priority>
         </url>
 @endforeach
+@foreach($features as $feature)
+			 <url>
+					 <loc>https://moving-crm.com/features/{{ $feature->slug }}</loc>
+					 <lastmod>{{ date('Y-m-d', strtotime($feature->updated_at)) }}</lastmod>
+					 <priority>0.50</priority>
+			 </url>
+@endforeach
 </urlset>

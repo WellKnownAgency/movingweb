@@ -11,8 +11,9 @@ class PagesController extends Controller
 {
 	public function sitemap()
 	{
+		$features = Feature::orderBy('updated_at', 'DESC')->get();
 		$posts = Post::orderBy('updated_at', 'DESC')->get();
-		return response()->view('sitemap', compact('posts'))->header('Content-Type', 'text/xml');
+		return response()->view('sitemap', compact('posts', 'features'))->header('Content-Type', 'text/xml');
 	}
 
   public function getIndex() {
