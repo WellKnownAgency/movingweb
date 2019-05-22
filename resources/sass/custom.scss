@@ -2,6 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+
+@media screen and (max-width: 600px) {
+	.page-header .title {
+    color: #fff;
+    font-family: Nunito,sans-serif;
+    font-size: 2em;
+}
+
+}
 .btn-twitter {
 background-color:#33CCFF;
 }
