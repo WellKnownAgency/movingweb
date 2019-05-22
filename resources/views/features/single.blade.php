@@ -69,10 +69,10 @@
       </div>
     </div>
   </div>
-  @include('sections.action')
+  @include('sections.action-sup')
 
   <div class="container">
-    @include('sections.contact')
+    @include('sections.support')
   </div>
 
 </div>
