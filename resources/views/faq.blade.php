@@ -9,15 +9,15 @@
 @section ('content')
 
 		<div class="main main-raised">
-      <div class="section text-center" style="padding-top:0px;">
-				<div class="section">
+      <div class="section text-center" style="padding-top:30px; padding-bottom:30px;">
 					<div class="col-md-12 ml-auto mr-auto">
 						<div class="container">
 						<h2 class="title" style="padding-bottom:30px;">F.A.Q. About MovingCRM
 						</h2>
 						<div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
-								<div class="row">
-									<div class="card card-plain col-md-6 faq_card">
+							<div class="row">
+								<div class="column">
+									<div class="card card-plain faq_card">
 										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-transform: uppercase;">
 											<div class="card-header faq_card_header" role="tab" id="headingOne">
 													What is MovingCRM?
@@ -42,7 +42,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="card card-plain col-md-6 faq_card">
+									<div class="card card-plain faq_card">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="text-transform: uppercase;">
 										<div class="card-header faq_card_header" role="tab" id="headingTwo">
 											Why MovingCRM?
@@ -62,88 +62,81 @@
 										</div>
 									</div>
 								</div>
-							</div>
-						<div class="row">
-							<div class="card card-plain col-md-6 faq_card">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="text-transform: uppercase;">
-									<div class="card-header faq_card_header" role="tab" id="headingThree">
-										How do I control moving rates?
-										<i class="now-ui-icons arrows-1_minimal-down"></i>
-									</div>
-								</a>
-								<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-									<div class="card-body">
-										<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
-											<p>
-												MovingCRM provides you 5 types of rates: discount, regular, subpeak, peak, and highpeak, so that you can set up the price for each type. Therefore, you want to work with an interactive calendar and distribute the rates over the calendar regarding your needs.
-											</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-
-							<div class="card col-md-6 card-plain faq_card">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="text-transform: uppercase;">
-									<div class="card-header faq_card_header" role="tab" id="headingFour">
-										How long does software installation take?
-										<i class="now-ui-icons arrows-1_minimal-down"></i>
-									</div>
-								</a>
-								<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-									<div class="card-body">
-										<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
-											<p>
-												Usually, we complete the installation within 2 - 3 working days.
-											</p>
-										</blockquote>
+								<div class="card card-plain  faq_card">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="text-transform: uppercase;">
+										<div class="card-header faq_card_header" role="tab" id="headingThree">
+											How do I control moving rates?
+											<i class="now-ui-icons arrows-1_minimal-down"></i>
+										</div>
+									</a>
+									<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+										<div class="card-body">
+											<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
+												<p>
+													MovingCRM provides you 5 types of rates: discount, regular, subpeak, peak, and highpeak, so that you can set up the price for each type. Therefore, you want to work with an interactive calendar and distribute the rates over the calendar regarding your needs.
+												</p>
+											</blockquote>
+										</div>
 									</div>
 								</div>
 							</div>
+							<div class="column">
+								<div class="card card-plain faq_card">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="text-transform: uppercase;">
+										<div class="card-header faq_card_header" role="tab" id="headingFour">
+											How long does software installation take?
+											<i class="now-ui-icons arrows-1_minimal-down"></i>
+										</div>
+									</a>
+									<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+										<div class="card-body">
+											<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
+												<p>
+													Usually, we complete the installation within 2 - 3 working days.
+												</p>
+											</blockquote>
+										</div>
+									</div>
+								</div>
 
+								<div class="card card-plain  faq_card">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive" style="text-transform: uppercase;">
+										<div class="card-header faq_card_header" role="tab" id="headingFive">
+											How to get started using MovingCRM?
+											<i class="now-ui-icons arrows-1_minimal-down"></i>
+										</div>
+									</a>
+									<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+										<div class="card-body">
+											<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
+												<p>
+													It is as simple as 2 x 2. Fill up the form, and we will get back to you ASAP. Then we are going to suggest you a trial version of the application with a complete study guide, where you will get access to all CRM features, so you can try and convince if MovingCRM is the best solution for your moving company.											</p>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+
+								<div class="card card-plain faq_card">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="text-transform: uppercase;">
+										<div class="card-header faq_card_header" role="tab" id="headingSix">
+											Where is my database stored?
+											<i class="now-ui-icons arrows-1_minimal-down"></i>
+										</div>
+									</a>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+										<div class="card-body">
+											<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
+												<p>
+													To provide constant access, we securely store all of our customer information on fully trusted Digital Ocean cloud servers. Our servers automatically perform backups, so you can be sure your data to be safe with us.
+												</p>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-
-
-						<div class="row">
-							<div class="card card-plain col-md-6 faq_card">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive" style="text-transform: uppercase;">
-									<div class="card-header faq_card_header" role="tab" id="headingFive">
-										How to get started using MovingCRM?
-										<i class="now-ui-icons arrows-1_minimal-down"></i>
-									</div>
-								</a>
-								<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
-									<div class="card-body">
-										<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
-											<p>
-												It is as simple as 2 x 2. Fill up the form, and we will get back to you ASAP. Then we are going to suggest you a trial version of the application with a complete study guide, where you will get access to all CRM features, so you can try and convince if MovingCRM is the best solution for your moving company.											</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-
-							<div class="card col-md-6 card-plain faq_card">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="text-transform: uppercase;">
-									<div class="card-header faq_card_header" role="tab" id="headingSix">
-										Where is my database stored?
-										<i class="now-ui-icons arrows-1_minimal-down"></i>
-									</div>
-								</a>
-								<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-									<div class="card-body">
-										<blockquote class="blockquote faq_blockquote" style="padding-bottom:0;">
-											<p>
-												To provide constant access, we securely store all of our customer information on fully trusted Digital Ocean cloud servers. Our servers automatically perform backups, so you can be sure your data to be safe with us.
-											</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
 					</div>
 				</div>
-			</div>
     </div>
 	</div>
 
