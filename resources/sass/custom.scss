@@ -74,7 +74,8 @@ color:#3B5998;
 }
 
 .faq_card_header{
-	background: linear-gradient(60deg, #294653, #65b2b8) !important;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.05) 100%), radial-gradient(at top center, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 120%) #65b2b8 !important;
+   background-blend-mode: multiply,multiply !important;
 	color: #fff;
 	font-weight: 700;
 	font-size: 1.25em;

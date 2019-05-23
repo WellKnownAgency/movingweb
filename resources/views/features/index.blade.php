@@ -1,4 +1,4 @@
-@extends('layouts.mainblog')
+@extends('layouts.mainfeature')
 
 @section('title', 'Moving CRM Study Guide')
 
