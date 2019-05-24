@@ -40,6 +40,10 @@
     </div>
   </div>
 </div>
+@include('sections.action')
+<div class="container">
+	@include('sections.support')
+</div>
 @include('sections.chat')
 
 @stop
