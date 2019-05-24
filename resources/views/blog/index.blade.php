@@ -39,11 +39,12 @@
       @endforeach
     </div>
   </div>
+	@include('sections.action')
+	<div class="container">
+		@include('sections.contact')
+	</div>
 </div>
-@include('sections.action')
-<div class="container">
-	@include('sections.contact')
-</div>
+
 @include('sections.chat')
 
 @stop

@@ -31,7 +31,7 @@
 			        <h6 class="card-category text-info">Movers to Move</h6>
 							<blockquote class="blockquote">
 				        <p class="card-description">
-				          Great Moving Compny Software for Small Companies. Fair Price and Secured work
+				          Great Moving Comapny Software for Small Companies. Fair Price and Secured work
 				        </p>
 							</blockquote>
 			    </div>

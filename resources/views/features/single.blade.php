@@ -45,14 +45,14 @@
               <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
                  Free Online Demo
               </a>
-              <a id="shareb" href="https://twitter.com/intent/tweet?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-twitter btn-round">
+							<a id="shareb" href="https://twitter.com/intent/tweet?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-twitter btn-round">
                   <i class="fab fa-twitter"></i>
               </a>
-              <a id="shareb" href="https://www.facebook.com/sharer.php?u={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-facebook btn-round">
+              <a id="shareb" href="https://www.facebook.com/sharer.php?u={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-facebook btn-round">
                   <i class="fab fa-facebook-square"></i>
               </a>
-              <a id="shareb" href="https://plus.google.com/share?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-lg btn-google btn-round">
-                  <i class="fab fa-google"></i>
+              <a id="shareb" href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-linkedin btn-round">
+                  <i class="fab fa-linkedin"></i>
               </a>
       </div>
     </div>
