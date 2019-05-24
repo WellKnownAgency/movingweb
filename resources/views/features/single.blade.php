@@ -42,7 +42,7 @@
       <div class="col-md-12">
         <h1 class="title">{{ $feature->title }}</h1>
         <br>
-              <a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
+              <a href="#contact" class="btn btn-success btn-round text-muted">
                  Free Online Demo
               </a>
 							<a id="shareb" href="https://twitter.com/intent/tweet?url={{ urlencode(Request::fullUrl()) }}" class="btn btn-icon btn-twitter btn-round">
