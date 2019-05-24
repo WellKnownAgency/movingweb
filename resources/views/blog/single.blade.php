@@ -77,7 +77,7 @@
   </div>
   @include('sections.action')
 	<div class="container">
-		@include('sections.support')
+		@include('sections.contact')
 	</div>
   <div class="container">
     @include('sections.posts')
