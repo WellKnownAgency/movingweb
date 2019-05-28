@@ -1,4 +1,4 @@
-<div class="section section-contacts" id="contact">
+<div class="section section-contacts" id="support-mess">
 	<div class="row">
 		<div class="col-md-8 ml-auto mr-auto">
 			<h2 class="text-center title">Create a Support Ticket</h2>

@@ -1,5 +1,7 @@
 @extends('layouts.blog')
 
+@section('title', "$feature->title")
+
 @section('description', "$feature->dscr")
 
 @section('keywords', '')

@@ -5,7 +5,7 @@
 				Still Have Troubles? Create a Support ticket!
 			</div>
 			<br>
-			<a href="#contact" class="btn btn-success btn-round btn-lg text-muted">
+			<a href="#support-mess" class="btn btn-success btn-round btn-lg text-muted">
 		     Create Ticket
 			  <div class="ripple-container"></div>
 			</a>
