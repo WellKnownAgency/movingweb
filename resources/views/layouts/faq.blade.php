@@ -5,6 +5,7 @@
 	@yield('customcss')
 	</head>
 	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+		@incude('partials.gtag')
 		@include('partials.nav')
 		@include ('sections.header-faq')
 		@yield('content')
