@@ -57,7 +57,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4 ml-auto mr-auto text-center">
-						<button type="submit" class="btn btn-primary btn-raised">
+						<button type="submit" class="btn btn-primary btn-raised" id="gtag-send-support-message">
 							Send Message
 						</button>
 					</div>
