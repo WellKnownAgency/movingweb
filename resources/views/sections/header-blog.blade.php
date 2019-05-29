@@ -1,4 +1,5 @@
-<div class="page-header" data-parallax="true" style="background-image: radial-gradient( circle 902px at 10% 20%,  rgba(18,50,90,1) 0%, rgba(207,199,252,1) 100.2% );">
+<div class="page-header" data-parallax="true" style="background: linear-gradient(135deg, #65b2b8 0%,
+#91ab6d 100%); transform: translate3d(0px, 0px, 0px);">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
