@@ -40,6 +40,10 @@ class PagesController extends Controller
     return view('faq')->withPosts($posts);
   }
 
+	public function privacy() {
+    return view('privacy');
+  }
+
   public function blogIndex() {
     $posts = Post::latest()->get();
     return view('blog/index')->withPosts($posts);

@@ -18,6 +18,7 @@ Route::get('/pricing', 'PagesController@pricing');
 Route::get('/support', 'PagesController@support');
 Route::get('/home', 'PagesController@home');
 Route::get('/faq', 'PagesController@faq');
+Route::get('/privacy', 'PagesController@privacy');
 Route::get('/blog', 'PagesController@blogIndex');
 Route::get('/blog/{slug}', ['as' => 'blog.single', 'uses' => 'PagesController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
 Route::get('/features', 'PagesController@featureIndex');

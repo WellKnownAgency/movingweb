@@ -22,6 +22,11 @@
             Support
           </a>
         </li>
+        <li>
+          <a href="/privacy">
+            Privacy
+          </a>
+        </li>
       </ul>
     </nav>
     <div class="copyright float-right">
