@@ -41,7 +41,7 @@
                 <td></td>
                 <td>{{ $feature->created_at}}</td>
                 <td class="text-right">
-                  <a href="/support/{{ $feature->slug }}" class="btn btn-success btn-sm">View</a>
+                  <a href="/features/{{ $feature->slug }}" class="btn btn-success btn-sm">View</a>
                 </td>
                 <td>
                   <a href="/admin/features/{{$feature->id}}/edit" class="btn btn-warning btn-sm">Edit</a>

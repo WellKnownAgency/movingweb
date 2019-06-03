@@ -19271,6 +19271,10 @@ tab-content {
   }
 }
 
+.features_img {
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19528,6 +19532,10 @@ tab-content {
   .faq_card {
     margin-bottom: 0px;
   }
+}
+
+.features_img {
+  max-width: 100%;
 }
 
 .navbar-laravel {
