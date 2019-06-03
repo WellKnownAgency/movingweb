@@ -19273,6 +19273,7 @@ tab-content {
 
 .features_img {
   max-width: 100%;
+  height: auto;
 }
 
 html {
@@ -19536,6 +19537,7 @@ tab-content {
 
 .features_img {
   max-width: 100%;
+  height: auto;
 }
 
 .navbar-laravel {
