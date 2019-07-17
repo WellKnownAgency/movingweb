@@ -61,10 +61,6 @@
               <i class="material-icons">cloud_download</i> Support
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Follow us on Twitter">
-              <i class="fab fa-twitter fa-lg"></i>
-            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/movingcrm/" target="_blank" data-original-title="Like us on Facebook">
@@ -72,8 +68,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Follow us on Instagram">
-              <i class="fab fa-instagram fa-lg"></i>
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.linkedin.com/company/movingcrm" target="_blank" data-original-title="Follow us on Instagram">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Call Us" data-placement="bottom" href="tel:8572641340" style="font-size:20px;">
+            (857) 264-1340
             </a>
           </li>
         </ul>
