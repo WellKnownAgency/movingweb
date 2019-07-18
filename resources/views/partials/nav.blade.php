@@ -68,7 +68,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.linkedin.com/company/movingcrm" target="_blank" data-original-title="Follow us on Instagram">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.linkedin.com/company/movingcrm" target="_blank" data-original-title="Follow us on Linkedin">
               <i class="fab fa-linkedin fa-lg"></i>
             </a>
           </li>
