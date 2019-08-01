@@ -52,7 +52,7 @@
 	                  <i class="material-icons">phone_in_talk</i>
 	                </div>
 	                <h4 class="info-title">Call Us</h4>
-	                <p><span style="color:#000;">(856) 534-9988</span> be free to ask any questions.</p>
+	                <p><span style="color:#000;">(857) 264-1340</span> be free to ask any questions.</p>
 	              	</div>
 	            	</div>
 				    	</div>
