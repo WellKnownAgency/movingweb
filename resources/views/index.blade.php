@@ -9,9 +9,7 @@
 @section ('content')
 
 	<div class="main main-raised">
-		<div class="container">
-      @include('sections.tabs')
-		</div>
+    @include('sections.tabs')
 		@include('sections.action')
     <div class="container">
       <div class="section text-center">

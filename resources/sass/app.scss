@@ -14,3 +14,60 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+#slideshow { 
+  position: relative; 
+  width: 100%; 
+  height: 60vh;  
+  .caption {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(101, 178, 184);
+    color: #fff;
+    padding: 20px 4%;
+    h2 {
+      font-size:28px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    p {
+      font-size:20px;
+      line-height: 24px;
+    }
+  }
+  img {
+    width: 60%;
+    height:auto;
+    float:right;
+  }
+}
+#slideshow .slide { 
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+}
+
+
+  #slideshow { 
+    @media screen and (max-width: 480px) 
+    {
+      height: 20vh !important;
+    .caption {
+      width: 100%;
+      height: auto;
+    }
+    img {
+      width:100%;
+      height: auto;
+    }
+    .slide {
+      float: right;
+      clear: both;
+    }
+  }
+}
