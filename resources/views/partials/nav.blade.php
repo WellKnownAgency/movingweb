@@ -61,6 +61,11 @@
               <i class="material-icons">cloud_download</i> Support
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/moving-websites">
+              <i class="material-icons">cloud_download</i> Moving Websites
+            </a>
+          </li>
           </li>
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/movingcrm/" target="_blank" data-original-title="Like us on Facebook">
