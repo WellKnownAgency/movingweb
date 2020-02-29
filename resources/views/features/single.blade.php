@@ -71,7 +71,7 @@
       </div>
     </div>
   </div>
-  @include('sections.action-sup')
+  @include('sections.action.support')
 
   <div class="container">
     @include('sections.support')
