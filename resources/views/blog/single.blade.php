@@ -76,13 +76,13 @@
       </div>
     </div>
   </div>
-  @include('sections.action.index')
-	<div class="container">
-		@include('sections.contact')
-	</div>
   <div class="container">
     @include('sections.posts')
   </div>
+	<div class="container">
+		@include('sections.contact')
+	</div>
+  
 
 </div>
 
