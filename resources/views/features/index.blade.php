@@ -1,4 +1,4 @@
-@extends('layouts.mainfeature')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM Study Guide')
 
@@ -11,6 +11,7 @@
 @stop
 
 @section('content')
+@include ('sections.header.feature')
 <div class="main main-raised">
   <div class="container">
     <div class= "row">
@@ -29,6 +30,9 @@
       </div>
       @endforeach
     </div>
+  </div>
+  <div class="container">
+    @include('sections.support')
   </div>
 </div>
 @include('sections.chat')

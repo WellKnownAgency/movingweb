@@ -7,7 +7,7 @@
 @section('keywords', '')
 
 @section ('content')
-
+@include ('sections.header.faq')
 		<div class="main main-raised">
       <div class="section text-center" style="padding-top:30px; padding-bottom:30px;">
 					<div class="col-md-12 ml-auto mr-auto">

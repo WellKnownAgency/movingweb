@@ -1,4 +1,4 @@
-@extends('layouts.mainblog')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM Blog')
 
@@ -40,7 +40,7 @@
       @endforeach
     </div>
   </div>
-	@include('sections.action')
+	@include('sections.action.index')
 	<div class="container">
 		@include('sections.contact')
 	</div>

@@ -1,4 +1,4 @@
-@extends('layouts.blog')
+@extends('layouts.main')
 
 @section('title', "$post->title")
 
@@ -42,7 +42,7 @@
 @stop
 
 @section('content')
-@include ('sections.header.blog')
+
 <div class="page-header page-header-blog darkend" data-parallax="true" style="background-image: url(/images/blog/{{ $post->image }});">
   <div class="container">
     <div class="row">
@@ -76,7 +76,7 @@
       </div>
     </div>
   </div>
-  @include('sections.action')
+  @include('sections.action.index')
 	<div class="container">
 		@include('sections.contact')
 	</div>
