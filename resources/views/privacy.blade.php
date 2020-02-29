@@ -1,4 +1,4 @@
-@extends('layouts.privacy')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM F.A.Q.')
 

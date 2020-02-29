@@ -1,4 +1,4 @@
-@extends('layouts.mainWebsites')
+@extends('layouts.main')
 
 @section('title', 'Websites for Moving Companies - Get leads with professionally designed websites')
 
@@ -7,12 +7,12 @@
 @section('keywords', '')
 
 @section ('content')
-
+@include ('sections.header.websites')
 	<div class="main main-raised">
       <div class="section text-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Why MovingCRM?</h2>
+            <h2 class="title">Our Services</h2>
             <h5 class="description"></h5>
           </div>
         </div>
@@ -20,45 +20,53 @@
           <div class="col-md-7">
             <div class="row" style="margin-left: 0px; margin-right:0px;">
               <div class="info" style="padding: 30px 0px;">
-                <div class="icon icon-info">
-                  <i class="material-icons">question_answer</i>
+                <div class="icon icon-danger">
+                  <i class="material-icons">palette</i>
                 </div>
-                <h4 class="info-title">24/7 Customer Service</h4>
-                <p>MovingCRM team pays special attention to our client support. Whether you have questions regarding the software work or share your ideas on how we can improve the CRM, feel free to contact us any day at any time.</p>
+                <h4 class="info-title">Website Design</h4>
+                <p>
+                  Our team of professional Designers will create Website Design, so your brand can stand out from the crowd!
+                </p>
               </div>
 							<div class="info" style="padding: 30px 0px;">
-								<div class="icon icon-success">
-									<i class="material-icons">verified_user</i>
+								<div class="icon icon-info">
+									<i class="material-icons">devices</i>
 								</div>
-								<h4 class="info-title">Protected Database</h4>
-								<p>MovingCRM use <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> cloud servers, which provide one of the safest places to store your data with constant security monitoring and data backup.</p>
+								<h4 class="info-title">Website Development</h4>
+	                <p>
+                    Our Developers build a fast loading and responsive websites, so your potential clients will always get what they want.
+                  </p>
 							</div>
             </div>
 						<div class="row" style="margin-left: 0px; margin-right:0px;">
               <div class="info" style="padding: 30px 0px;">
-                <div class="icon icon-info">
-                  <i class="material-icons">question_answer</i>
+                <div class="icon icon-primary">
+                  <i class="material-icons">language</i>
                 </div>
-                <h4 class="info-title">24/7 Customer Service</h4>
-                <p>MovingCRM team pays special attention to our client support. Whether you have questions regarding the software work or share your ideas on how we can improve the CRM, feel free to contact us any day at any time.</p>
+                <h4 class="info-title">Online Advertising</h4>
+                <p>
+                  Our Advertisers will help you to setup any type of Ad Campaign - Search, Social or Remarketing to reach your potential clients.
+                </p>
               </div>
 							<div class="info" style="padding: 30px 0px;">
 								<div class="icon icon-success">
 									<i class="material-icons">verified_user</i>
 								</div>
-								<h4 class="info-title">Protected Database</h4>
-								<p>MovingCRM use <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> cloud servers, which provide one of the safest places to store your data with constant security monitoring and data backup.</p>
+								<h4 class="info-title">Online Marketing</h4>
+								<p>
+                  Search Engine optimization, Content Marketing Marketing Consultation - we will help you to build a right strategy to reach your potential clients.
+                </p>
 							</div>
             </div>
           </div>
-					<div class="col-md-5">
+					<div class="col-md-5 my-auto">
 						<div class="container">
-							<img src="/images/svg_web_des.svg" alt="web-design" height="auto" width="100%">
+							<img src="/images/website.svg" alt="web-design" height="auto" width="100%">
 						</div>
 					</div>
         </div>
 			</div>
-		@include('sections.action')
+		@include('sections.action.websites')
     <div class="container">
       <div class="text-center">
         <div >

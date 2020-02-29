@@ -42,6 +42,7 @@
 @stop
 
 @section('content')
+@include ('sections.header.blog')
 <div class="page-header page-header-blog darkend" data-parallax="true" style="background-image: url(/images/blog/{{ $post->image }});">
   <div class="container">
     <div class="row">

@@ -1,4 +1,4 @@
-@extends('layouts.support')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM Customer Support')
 
@@ -7,7 +7,7 @@
 @section('keywords', '')
 
 @section ('content')
-
+@include ('sections.header.index')
 	<div class="main main-raised">
     <div class="container">
       <div class="section text-center">

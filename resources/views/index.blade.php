@@ -2,15 +2,15 @@
 
 @section('title', 'MovingCRM - Moving Company Software')
 
-@section('description', 'MovingCRM is Moving Company Software to simplify managing processes of the company. Get Requests, Schedule and manage your working crew. All these and more with simple and intuitive design.')
+@section('description', 'MovingCRM is Moving Company Software to simplify managing processes of the moving company. Get Requests, Schedule and manage your working crew. All these and more with simple and intuitive design.')
 
 @section('keywords', '')
 
 @section ('content')
-
+@include ('sections.header.index')
 	<div class="main main-raised">
     @include('sections.tabs')
-		@include('sections.action')
+		@include('sections.action.index')
     <div class="container">
       <div class="section text-center">
         <div class="row">

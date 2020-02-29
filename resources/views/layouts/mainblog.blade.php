@@ -7,7 +7,6 @@
 	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 		@include('partials.gtag')
 		@include('partials.nav')
-		@include ('sections.header-blog')
 		@yield('content')
 		@include('partials.footer')
 		@include('partials/js')

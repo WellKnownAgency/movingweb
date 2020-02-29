@@ -1,4 +1,4 @@
-@extends('layouts.mainPricing')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM Pricing - Pick the best plan for your Moving Company')
 
@@ -7,12 +7,12 @@
 @section('keywords', '')
 
 @section ('content')
-
+@include ('sections.header.pricing')
 	<div class="main main-raised">
 		<div class="container">
       @include('sections.prices-table')
 		</div>
-		@include('sections.action')
+		@include('sections.action.index')
     <div class="container">
       <div class="text-center">
         <div >

@@ -1,4 +1,4 @@
-@extends('layouts.faq')
+@extends('layouts.main')
 
 @section('title', 'Moving CRM F.A.Q.')
 

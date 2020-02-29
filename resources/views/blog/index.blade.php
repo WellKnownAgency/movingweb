@@ -11,6 +11,7 @@
 @stop
 
 @section('content')
+@include ('sections.header.blog')
 <div class="main main-raised">
   <div class="container">
     <div class= "row">
