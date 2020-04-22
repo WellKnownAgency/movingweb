@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Websites for Moving Companies - Get leads with professionally designed websites')
+@section('title', 'Websites for Moving Companies')
 
 @section('description', '')
 
