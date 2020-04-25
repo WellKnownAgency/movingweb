@@ -23,17 +23,17 @@
 <meta name="twitter:description" content="{{ $post->dscr }}">
 <meta name="twitter:creator" content="@taras_kim">
 <!-- Twitter summary card with large image must be at least 280x150px -->
-<meta name="twitter:image:src" content=" ">
+<meta name="twitter:image:src" content="https://moving-crm.com/images/blog/{{ $post->image }}">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="{{ $post->title }}" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content=" "/>
-<meta property="og:image" content=" "/>
+<meta property="og:url" content="https://moving-crm.com/blog/{{ $post->slug }}"/>
+<meta property="og:image" content="https://moving-crm.com/images/blog/{{ $post->image }}"/>
 <meta property="og:description" content="{{ $post->dscr }}" />
 <meta property="og:site_name" content="MovingCRM" />
-<meta property="article:published_time" content="" />
-<meta property="article:modified_time" content=" " />
+<meta property="article:published_time" content="{{ $post->created_at }}" />
+<meta property="article:modified_time" content="{{ $post->updated_at }}" />
 <meta property="article:section" content="Article Section" />
 <meta property="article:tag" content="Moving Software" />
 <meta property="fb:admins" content="153425045259276" />
