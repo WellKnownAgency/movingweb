@@ -2,7 +2,7 @@
 
 @section('title', 'Websites for Moving Companies')
 
-@section('description', '')
+@section('description', 'We create fast and responsive websites for moving companies to catch and convert new leads into repeated customers. We do not use CMS to build moving websites.')
 
 @section('keywords', '')
 
@@ -86,7 +86,7 @@
                   <i class="material-icons">phone_in_talk</i>
                 </div>
                 <h4 class="info-title">Customer Serivce</h4>
-                <p>We understand, that sometimes something can go wrong with our application, that's why we have a special trained team to help you asap</p>
+                <p>We understand, that sometimes something can go wrong with our application, thats why we have a special trained team to help you asap</p>
               </div>
             </div>
             <div class="col-md-4">
