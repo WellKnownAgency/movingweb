@@ -14,11 +14,11 @@
           <div class="card-body">
             <h6 class="card-category">New Company</h6>
             <h1 class="card-title">
-              <small>$</small>89</h1>
+              <small>$</small>149</h1>
             <ul>
               <li><i class="material-icons text-primary">check</i> Moving Calculator</li>
               <li><i class="material-icons text-primary">check</i> Schedule</li>
-							<li><i class="material-icons text-primary">check</i> Team Management</li>
+							<li><i class="material-icons text-primary">check</i> Dispatch</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Group Assistant</li>
@@ -39,11 +39,11 @@
           <div class="card-body">
             <h6 class="card-category">Small Company</h6>
             <h1 class="card-title">
-              <small>$</small>189</h1>
+              <small>$</small>229</h1>
             <ul>
 							<li><i class="material-icons text-primary">check</i> Moving Calculator</li>
               <li><i class="material-icons text-primary">check</i> Schedule</li>
-							<li><i class="material-icons text-primary">check</i> Team Management</li>
+							<li><i class="material-icons text-primary">check</i> Dispatch</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
@@ -64,11 +64,11 @@
           <div class="card-body">
             <h6 class="card-category">Large Company</h6>
             <h1 class="card-title">
-              <small>$</small>289</h1>
+              <small>$</small>299</h1>
             <ul>
 							<li><i class="material-icons text-primary">check</i> Moving Calculator</li>
               <li><i class="material-icons text-primary">check</i> Schedule</li>
-							<li><i class="material-icons text-primary">check</i> Team Management</li>
+							<li><i class="material-icons text-primary">check</i> Dispatch</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Personal Assistant</li>
