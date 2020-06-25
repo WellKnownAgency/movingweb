@@ -2,7 +2,7 @@
 	<div class="section justify-content-center">
 		<h2 class="title text-center">MovingCRM Features</h2>
 		<br>
-		<ul class="nav nav-pills nav-pills-primary justify-content-center" role="tablist">
+		<ul class="nav nav-pills nav-pills-primary justify-content-center" style="flex-wrap:nowrap;" role="tablist">
 			<li class="nav-item col-md-2">
 				<a class="nav-link active" data-toggle="tab" href="#link1" role="tablist" aria-expanded="true">
 							<i class="fas fa-calculator"></i>Calculator
@@ -23,9 +23,14 @@
 				<i class="fas fa-users"></i>Dispatch
 				</a>
 			</li>
-				<li class="nav-item col-md-2">
+			<li class="nav-item col-md-2">
 				<a class="nav-link" data-toggle="tab" href="#link5" role="tablist" aria-expanded="false">
 				<i class="fas fa-mail-bulk"></i>Marketing
+				</a>
+			</li>
+			<li class="nav-item col-md-2">
+				<a class="nav-link" data-toggle="tab" href="#link6" role="tablist" aria-expanded="false">
+				<i class="fas fa-boxes"></i>Inventory
 				</a>
 			</li>
 		</ul>
@@ -125,29 +130,53 @@
 						</div>
 					</div>
 			</div>
-				<div class="tab-pane fade" id="link5" aria-expanded="false">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="tabs-title">
-								Marketing Automation
-							</div>
-							<div class="tabs-text">
-								<br>
-								Emails, SMS and more to automate your Moving Marketing Processes.
-								<br>
-								<br>
-								<div class="text-center">
-									<a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted" id="free-online-demo-t" style="margin-bottom:10px;">
-											Free Online Demo
-										<div class="ripple-container"></div>
-									</a>
-								</div>
-							</div>
+			<div class="tab-pane fade" id="link5" aria-expanded="false">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="tabs-title">
+							Marketing Automation
 						</div>
-						<div class="col-md-8">
-							<img src="/images/marketing.png" class="rounded image-shadow"  width="100%"/>
+						<div class="tabs-text">
+							<br>
+							Emails, SMS and more to automate your Moving Marketing Processes.
+							<br>
+							<br>
+							<div class="text-center">
+								<a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted" id="free-online-demo-t" style="margin-bottom:10px;">
+										Free Online Demo
+									<div class="ripple-container"></div>
+								</a>
+							</div>
 						</div>
 					</div>
+					<div class="col-md-8">
+						<img src="/images/marketing.png" class="rounded image-shadow"  width="100%"/>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="link6" aria-expanded="false">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="tabs-title">
+							Inventory
+						</div>
+						<div class="tabs-text">
+							<br>
+							Simple process for adding inventory to customer's move to provide more accurate moving quote.
+							<br>
+							<br>
+							<div class="text-center">
+								<a href="#contact" class="btn btn-outline-primary btn-round btn-lg text-muted" id="free-online-demo-t" style="margin-bottom:10px;">
+										Free Online Demo
+									<div class="ripple-container"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<img src="/images/tabs/inventory.jpg" class="rounded image-shadow"  width="100%"/>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

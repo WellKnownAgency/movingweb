@@ -51,7 +51,8 @@
           </div>
         </div>
       </div>
-		</div>
+    </div>
+    @include('sections.account')
 		@include('sections.getstarted')
 
     <div class="container">

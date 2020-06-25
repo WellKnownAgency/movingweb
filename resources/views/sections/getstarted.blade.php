@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="info">
-              <div class="icon icon-info">
+              <div class="icon" style="color:#6DB0A7;">
                 <i class="fas fa-file-signature"></i>
               </div>
               <h4 class="info-title">Schedule a Demo</h4>
@@ -20,7 +20,7 @@
           </div>
           <div class="col-md-3">
             <div class="info">
-              <div class="icon icon-success">
+              <div class="icon" style="color:#79AE92;">
                   <i class="fas fa-desktop"></i>
               </div>
               <h4 class="info-title">Request a Trial</h4>
@@ -29,7 +29,7 @@
           </div>
           <div class="col-md-3">
             <div class="info">
-              <div class="icon icon-danger">
+              <div class="icon" style="color:#82AC83;">
                 <i class="fas fa-chalkboard-teacher"></i>
               </div>
               <h4 class="info-title">Learn how to use</h4>
@@ -38,7 +38,7 @@
           </div>
           <div class="col-md-3">
               <div class="info">
-                <div class="icon icon-danger">
+                <div class="icon" style="color:#8FAB70;">
                   <i class="fas fa-credit-card"></i>
                 </div>
                 <h4 class="info-title">Subscribe to a Payment Plan</h4>
