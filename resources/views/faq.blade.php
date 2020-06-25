@@ -149,3 +149,18 @@
   </div>
 	@include('sections.chat')
 @stop
+@section('customjs')
+<script> 
+    var myVideo = document.getElementById("video1"); 
+
+    function playPause() { 
+      var element = document.getElementById("playButton");
+      element.classList.add("display-none");
+      
+      if (myVideo.paused) 
+        myVideo.play();
+      else 
+        myVideo.pause();
+    } 
+    </script>
+@stop
