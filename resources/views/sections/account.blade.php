@@ -33,7 +33,7 @@
             </div>
             <div class="description">
                 <h4 class="info-title">Chat</h4>
-                <p>Easy communicate wit your customers through chat! </p>
+                <p>Easy communicate with your customers through chat!</p>
             </div>
             </div>
         </div>
