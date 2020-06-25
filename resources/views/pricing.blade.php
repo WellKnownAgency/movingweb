@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('title', 'Moving CRM Pricing - Pick the best plan for your Moving Company')
+@section('title', 'MovingCRM Pricing - Pick the best plan for your Moving Company')
 
-@section('description', '')
+@section('description', 'MovingCRM provides different pricing plans for different mvign company size. Do not overpay and choose the right price for your Moving company.')
 
 @section('keywords', '')
 
@@ -48,9 +48,6 @@
         </div>
       </div>
 		</div>
-		<div class="container">
-      @include('sections.reviews')
-		</div>
 
     <div class="container">
 			@include('sections.contact')
@@ -75,3 +72,4 @@
         myVideo.pause();
     } 
     </script>
+@stop

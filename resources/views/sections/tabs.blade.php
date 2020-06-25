@@ -2,7 +2,7 @@
 	<div class="section justify-content-center">
 		<h2 class="title text-center">MovingCRM Features</h2>
 		<br>
-		<ul class="nav nav-pills nav-pills-primary justify-content-center" style="flex-wrap:nowrap;" role="tablist">
+		<ul class="nav nav-pills nav-pills-primary justify-content-center flex-no-wrap-mob" role="tablist">
 			<li class="nav-item col-md-2">
 				<a class="nav-link active" data-toggle="tab" href="#link1" role="tablist" aria-expanded="true">
 							<i class="fas fa-calculator"></i>Calculator

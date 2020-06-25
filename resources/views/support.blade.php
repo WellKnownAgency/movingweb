@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Moving CRM Customer Support')
+@section('title', 'MovingCRM Customer Support')
 
 @section('description', 'Customer Support 24/7 Moving CRM. Get Answers on all your questions about Moving CRM. Contact us now.')
 
@@ -52,7 +52,7 @@
 	                  <i class="material-icons">phone_in_talk</i>
 	                </div>
 	                <h4 class="info-title">Call Us</h4>
-	                <p><span style="color:#000;">(857) 264-1340</span> be free to ask any questions.</p>
+	                <p><span style="color:#000;">(857) 264-1340</span></p>
 	              	</div>
 	            	</div>
 				    	</div>

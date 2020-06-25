@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('title', 'Moving CRM F.A.Q.')
+@section('title', 'MovingCRM F.A.Q.')
 
-@section('description', 'Frequently Asked Questions about Moving CRM.')
+@section('description', 'Frequently Asked Questions about MovingCRM. Find answers on questions ui may have regarding MovingCRM software for movers.')
 
 @section('keywords', '')
 
