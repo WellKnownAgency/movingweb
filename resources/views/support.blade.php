@@ -7,7 +7,7 @@
 @section('keywords', '')
 
 @section ('content')
-@include ('sections.header.index')
+@include ('sections.header.support')
 	<div class="main main-raised">
     <div class="container">
       <div class="section text-center">

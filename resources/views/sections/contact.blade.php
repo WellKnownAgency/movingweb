@@ -52,13 +52,13 @@
 				</div>
 				<!-- input with datetimepicker -->
 				<div class="form-group">
-				    <label class="label-control">Datetime Picker</label>
+				    <label class="label-control">Choose date and time</label>
 				    <input type="text" name="date_time" class="form-control datetimepicker">
 				</div>
 				<div class="row">
 					<div class="col-md-4 ml-auto mr-auto text-center">
 						<button type="submit" class="btn btn-primary btn-raised" id="gtag-send-message">
-							Send Message
+							Send request
 						</button>
 					</div>
 				</div>

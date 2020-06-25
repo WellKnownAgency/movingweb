@@ -52,9 +52,7 @@
         </div>
       </div>
 		</div>
-		<div class="container">
-      @include('sections.reviews')
-		</div>
+		@include('sections.getstarted')
 
     <div class="container">
 			@include('sections.contact')

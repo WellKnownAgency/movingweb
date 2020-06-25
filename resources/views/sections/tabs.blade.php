@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="section justify-content-center">
-		<h2 class="title text-center">What is MovingCRM?</h2>
+		<h2 class="title text-center">MovingCRM Features</h2>
 		<br>
 		<ul class="nav nav-pills nav-pills-primary justify-content-center" role="tablist">
 			<li class="nav-item col-md-2">
@@ -20,7 +20,7 @@
 			</li>
 				<li class="nav-item col-md-2">
 				<a class="nav-link" data-toggle="tab" href="#link4" role="tablist" aria-expanded="false">
-				<i class="fas fa-users"></i>Management
+				<i class="fas fa-users"></i>Dispatch
 				</a>
 			</li>
 				<li class="nav-item col-md-2">
@@ -37,8 +37,8 @@
 								Moving Calculator
 							</div>
 							<div class="tabs-text">
-								A simple 2 steps Calculator for your clients to get a Moving Etimate<br>
-								And for you to get an information about the lead.
+								A simple 2 steps Calculator for you to provide a Moving Etimate 
+								and get information about lead. There are Large and Small versions
 								<br>
 								<br>
 								<div class="text-center">
@@ -50,7 +50,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/calculator.png" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/calculator.jpg" class="rounded image-shadow"  width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -61,7 +61,7 @@
 								Moving Requests
 							</div>
 							<div class="tabs-text">
-								Manage your Request in a simple way. Change Moving Dates, Travel Time and more.
+								Manage your requests in a simple way. Change moving dates, travel time, rates, assign to trucks and a lot more.
 								<br>
 								<br>
 								<div class="text-center">
@@ -73,7 +73,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/requests.png" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/requests.jpg" class="rounded image-shadow"  width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -97,7 +97,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/schedule.png" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/schedule.jpg" class="rounded image-shadow"  width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -105,11 +105,11 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="tabs-title">
-								Team Management
+								Dispatch
 							</div>
 							<div class="tabs-text">
-								Manage yout teams and assign them to works<br>
-								Provide information to your workers about your customer.
+								Drag and Drop Dispatch is a great way to assign movers to jobs and trucks.
+								Every Mover has access to jobs information he has been assigned through his own account page.
 								<br>
 								<br>
 								<div class="text-center">
@@ -121,7 +121,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/team.png" class="rounded  image-shadow"  width="100%"/>
+							<img src="/images/tabs/dispatch.jpg" class="rounded  image-shadow"  width="100%"/>
 						</div>
 					</div>
 			</div>

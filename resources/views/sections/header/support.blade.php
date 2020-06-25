@@ -3,11 +3,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="title">Moving CRM <br> 24 / 7 Support</h1>
-        <h4>Software for Movers</h4>
+        <h1 class="title">MovingCRM <br> 24 / 7 Support</h1>
+        <h4>Have Questions? Cntact us now!</h4>
         <br>
-        <a href="#contact" class="btn btn-success btn-round btn-lg text-muted" id="gtag-free-online-demo-h">
-           Free Online Demo
+        <a href="#support-mess" class="btn btn-success btn-round btn-lg text-muted" id="gtag-free-online-demo-h">
+           Support Ticket
         </a>
       </div>
 			<div class="col-md-6 text-center hidden-mob" style="position: relative;">

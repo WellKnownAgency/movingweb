@@ -1,26 +1,31 @@
-
-<nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5">
-  <div class="logo">
-    <a href="/admin" title="">
-      <img class="img-responsive" src="/images/logo.svg" width="100" alt="">
-    </a>
-  </div><!--end logo-->
+<div class="sidebar" data-color="white" data-active-color="danger">
+    <div class="logo">
+      <a href="/admin" class="simple-text logo-normal">
+        <div class="logo-image-big">
+          <img src="/images/logo.svg">
+        </div>
+      </a>
+    </div>
+    <div class="sidebar-wrapper">
+      <ul class="nav">
+        <li class="{{ Request::is('/') ?"active" : ""}}">
+          <a href="/admin">
+            <i class="nc-icon nc-bank"></i>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li class="{{ Request::is('admin/posts/') ?"active" : ""}}">
+          <a href="/admin/posts">
+            <i class="nc-icon nc-tile-56"></i>
+            <p>Posts</p>
+          </a>
+        </li>
+        <li class="{{ Request::is('admin/features/') ?"active" : ""}}">
+          <a href="/admin/features">
+            <i class="nc-icon nc-paper"></i>
+            <p>Features</p>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="/admin">Home</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="/admin/posts">Posts</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="/admin/features">Features</a>
-      </li>
-    </ul>
-  </div>
-</nav>
