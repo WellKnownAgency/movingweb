@@ -18,7 +18,8 @@
             <ul>
               <li><i class="material-icons text-primary">check</i> Moving Calculator</li>
               <li><i class="material-icons text-primary">check</i> Schedule</li>
-							<li><i class="material-icons text-primary">check</i> Dispatch</li>
+              <li><i class="material-icons text-primary">check</i> Dispatch</li>
+              <li><i class="material-icons text-primary">check</i> Inventory</li>
               <li><i class="material-icons text-primary">check</i> Emails</li>
 							<li><i class="material-icons text-primary">check</i> Secured Database</li>
 							<li><i class="material-icons text-primary">check</i> Group Assistant</li>
