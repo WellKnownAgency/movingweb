@@ -4,10 +4,9 @@
 	@include('partials/head')
 	@yield('customcss')
 	</head>
-	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+	<body class="landing-page sidebar-collapse" data-gr-c-s-loaded="true" cz-shortcut-listen="true" style="background-color:#a9a9a9;">
 		@include('partials.gtag')
 		@include('partials.nav')
-		@include ('sections.header-privacy')
 		@yield('content')
 		@include('partials.footer')
 		@include('partials/js')

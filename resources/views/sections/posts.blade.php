@@ -9,7 +9,7 @@
         <div class="card card-plain card-blog">
           <div class="card-header card-header-image">
             <a href="/blog/{{ $post->slug }}">
-              <img class="img img-raised" src="/images/blog/{{ $post->image }}">
+              <img class="img img-raised" src="/images/blog/{{ $post->image }}" alt="{{ $post->title}}">
             </a>
           <div class="colored-shadow" style="background-image: url(https://demos.creative-tim.com/material-kit-pro/assets/img/examples/card-blog4.jpg); opacity: 1;"></div></div>
           <div class="card-body">

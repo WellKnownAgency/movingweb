@@ -2,7 +2,7 @@
 
 @section('title', 'Moving CRM Study Guide')
 
-@section('description', 'Moving CRM Study Guide. Learn Everything about MovingCRM.')
+@section('description', 'Moving CRM Study Guide. Learn how the installation process is going and how to set up the software to start working.')
 
 @section('keywords',  ' ')
 

@@ -55,7 +55,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/tabs/calculator.jpg" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/calculator.jpg" class="rounded image-shadow" alt="moving calculator"  width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -78,7 +78,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/tabs/requests.jpg" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/requests.jpg" class="rounded image-shadow"  alt="moving requests" width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -102,7 +102,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/tabs/schedule.jpg" class="rounded image-shadow"  width="100%"/>
+							<img src="/images/tabs/schedule.jpg" class="rounded image-shadow"  alt="moving schedule"  width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -126,7 +126,7 @@
 							</div>
 						</div>
 						<div class="col-md-8">
-							<img src="/images/tabs/dispatch.jpg" class="rounded  image-shadow"  width="100%"/>
+							<img src="/images/tabs/dispatch.jpg" class="rounded  image-shadow"  alt="moving dispatch" width="100%"/>
 						</div>
 					</div>
 			</div>
@@ -150,7 +150,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/marketing.png" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/marketing.png" class="rounded image-shadow"  alt="moving marketing" width="100%"/>
 					</div>
 				</div>
 			</div>
@@ -174,7 +174,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<img src="/images/tabs/inventory.jpg" class="rounded image-shadow"  width="100%"/>
+						<img src="/images/tabs/inventory.jpg" class="rounded image-shadow"  alt="moving inventory" width="100%"/>
 					</div>
 				</div>
 			</div>

@@ -20,7 +20,7 @@
         <div class="card card-blog">
           <div class="card-header card-header-image darkend">
               <a href="/blog/{{ $post->slug }}">
-                  <img class="img" src="/images/blog/{{ $post->image }}">
+                  <img class="img" src="/images/blog/{{ $post->image }}" alt="{{ $post->title}}">
                   <div class="card-title">
                       {{ $post->title }}
                   </div>
