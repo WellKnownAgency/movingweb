@@ -1,17 +1,18 @@
-@extends('layouts.main')
+@extends('layouts.privacy')
 
-@section('title', 'Moving CRM F.A.Q.')
+@section('title', 'Moving CRM Privacy')
 
-@section('description', 'Frequently Asked Questions about Moving CRM.')
+@section('description', 'MovingCRM privacy policy. Your privacy is critically important to us.')
 
 @section('keywords', '')
 
 @section ('content')
 
-		<div class="main main-raised">
+	<div class="main main-raised" style="margin-top:10em;">
       <div class="section text-center" style="padding-top:30px; padding-bottom:30px;">
 					<div class="col-md-12 ml-auto mr-auto">
 						<div class="container">
+						<h1>MovingCRM Privacy Policy</h1>
 						<h3>Your privacy is critically important to us.</h3>
 						MovingCRM is located at:<br/>
 						<address>
