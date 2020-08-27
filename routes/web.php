@@ -37,7 +37,7 @@ Route::prefix('admin')->middleware('auth:web')->group(function() {
   Route::resource('/posts', 'PostController');
   Route::get('/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
   Route::post('/posts/{id}','PostController@update');
-  Route::resource('/admin/features', 'FeatureController');
+  Route::resource('features', 'FeatureController');
   Route::post('/features/{id}','FeatureController@update');
   Route::resource('/admin/categories', 'CategoryController');
   Route::post('/categories/{id}','CategoryController@update');
