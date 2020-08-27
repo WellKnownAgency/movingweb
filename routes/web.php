@@ -39,7 +39,7 @@ Route::prefix('admin')->middleware('auth:web')->group(function() {
   Route::post('/posts/{id}','PostController@update');
   Route::resource('features', 'FeatureController');
   Route::post('/features/{id}','FeatureController@update');
-  Route::resource('/admin/categories', 'CategoryController');
+  Route::resource('categories', 'CategoryController');
   Route::post('/categories/{id}','CategoryController@update');
 });
 
